@@ -1,34 +1,46 @@
 const vscode = require("vscode");
 
 class MyTextViewProvider {
-    resolveWebviewView(webviewView) {
-        webviewView.webview.options = { enableScripts: true };
+  resolveWebviewView(webviewView) {
+    webviewView.webview.options = { enableScripts: true };
 
-        // Create URIs for scripts
-        const scriptFiles = [
-            "main.js",
-            "wiseMan.js", // Update if your main class file is named 'wiseMan.js'
-            "animationController.js",
-            "spriteAnimation.js",
-            "vector.js",
-            "rectangle.js"
-        ].map(file => vscode.Uri.joinPath(vscode.Uri.file(__dirname), file));
+    // Create URIs for scripts
+    const scriptFiles = [
+      "main.js",
+      "wiseMan.js",
+      "animationController.js",
+      "spriteAnimation.js",
+      "vector.js",
+      "rectangle.js",
+      "dialogBox.js",
+    ].map((file) => vscode.Uri.joinPath(vscode.Uri.file(__dirname), file));
 
-        const [mainURI, wiseManURI, animationControllerURI, spriteAnimationURI, vectorURI, rectangleURI] = scriptFiles.map(file => webviewView.webview.asWebviewUri(file));
+    const [
+      mainURI,
+      wiseManURI,
+      animationControllerURI,
+      spriteAnimationURI,
+      vectorURI,
+      rectangleURI,
+      dialogBoxURI,
+    ] = scriptFiles.map((file) => webviewView.webview.asWebviewUri(file));
 
-        // Create URIs for animation assets
-        const animationAssets = [
-            "Biker_idle.png",
-            "Biker_run.png",
-            "Biker_jump.png"
-        ].map(asset => webviewView.webview.asWebviewUri(
-            vscode.Uri.joinPath(vscode.Uri.file(__dirname), "assets", asset)
-        ));
+    // Create URIs for animation assets
+    const animationAssets = [
+      "Biker_idle.png",
+      "Biker_run.png",
+      "Biker_jump.png",
+    ].map((asset) =>
+      webviewView.webview.asWebviewUri(
+        vscode.Uri.joinPath(vscode.Uri.file(__dirname), "assets", asset)
+      )
+    );
 
-        const [idleAnimationURI, runAnimationURI, jumpAnimationURI] = animationAssets;
+    const [idleAnimationURI, runAnimationURI, jumpAnimationURI] =
+      animationAssets;
 
-        // Set the HTML content for the webview
-        webviewView.webview.html = `
+    // Set the HTML content for the webview
+    webviewView.webview.html = `
         <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -45,6 +57,7 @@ class MyTextViewProvider {
             <title>Cyberpunk</title>
         </head>
         <body>
+            <script src="${dialogBoxURI}"></script>
             <script src="${vectorURI}"></script>
             <script src="${rectangleURI}"></script>
             <script src="${spriteAnimationURI}"></script>
@@ -60,14 +73,14 @@ class MyTextViewProvider {
         </body>
         </html>
         `;
-    }
+  }
 }
 
 function activate(context) {
-    const provider = new MyTextViewProvider();
-    context.subscriptions.push(
-        vscode.window.registerWebviewViewProvider("myTextView", provider)
-    );
+  const provider = new MyTextViewProvider();
+  context.subscriptions.push(
+    vscode.window.registerWebviewViewProvider("myTextView", provider)
+  );
 }
 
 function deactivate() {}
