@@ -13,29 +13,51 @@ const GRAVITY = new Vector2(0, 0.1);
 
 // Function to resize canvas and update properties depending on canvas dimensions
 function resizeCanvas() {
-    canvas.width = innerWidth;
-    canvas.height = 250;
+  canvas.width = innerWidth;
+  canvas.height = 200;
 
-    // Update sprite boundaries and ground position based on new canvas size
-    if (sprite) {
-        sprite.canvasWidth = canvas.width;
-    }
-    ground.size = new Vector2(canvas.width, 100);
-    ground.position = new Vector2(0, canvas.height - 100);
-    context.imageSmoothingEnabled = false;
+  // Update sprite boundaries and ground position based on new canvas size
+  if (sprite) {
+    sprite.canvasWidth = canvas.width;
+  }
+  ground.size = new Vector2(canvas.width, 20);
+  ground.position = new Vector2(0, canvas.height - 20);
+  context.imageSmoothingEnabled = false;
 }
 
 // Create the ground as a rectangle at the bottom of the screen
-const ground = new Rect2(new Vector2(0, canvas.height - 100), new Vector2(canvas.width, 100));
+const ground = new Rect2(
+  new Vector2(0, canvas.height - 100),
+  new Vector2(canvas.width, 0)
+);
 
 // Function to render the background, filling it with sky blue
 const renderBackground = () => {
-    context.fillStyle = "#ffffff";
-    context.fillRect(0, 0, canvas.width, canvas.height);
+  context.fillStyle = "#ffffff";
+  context.fillRect(0, 0, canvas.width, canvas.height);
 };
 
 // Initial call to set canvas size
 resizeCanvas();
+
+// Add an event listener for the mousemove event on the canvas
+canvas.addEventListener('mousemove', (event) => {
+    const rect = canvas.getBoundingClientRect();
+    const mouseX = event.clientX - rect.left;
+    const mouseY = event.clientY - rect.top;
+
+    // Check if the mouse is within the WiseMan sprite's boundaries
+    if (
+        mouseX >= sprite.position.x &&
+        mouseX <= sprite.position.x + sprite.size.x &&
+        mouseY >= sprite.position.y &&
+        mouseY <= sprite.position.y + sprite.size.y
+    ) {
+        sprite.isHovered = true;
+    } else {
+        sprite.isHovered = false;
+    }
+});
 
 // Add event listener for window resize
 window.addEventListener("resize", resizeCanvas);
@@ -45,28 +67,28 @@ context.imageSmoothingEnabled = false;
 
 // Main game loop using requestAnimationFrame
 function gameLoop() {
-    // Render the background
-    renderBackground();
+  // Render the background
+  renderBackground();
 
-    // Render the ground
-    ground.render();
+  // Render the ground
+  ground.render("#000");
 
-    // Update the sprite's position and animation
-    if (sprite) {
-        sprite.update(); // Apply gravity and check for collisions here
-        // Example gravity application:
-        sprite.velocity.add(GRAVITY); // Apply gravity to sprite's velocity
-        sprite.position.add(sprite.velocity); // Update sprite's position based on velocity
+  // Update the sprite's position and animation
+  if (sprite) {
+    sprite.update(); // Apply gravity and check for collisions here
+    // Example gravity application:
+    sprite.velocity.add(GRAVITY); // Apply gravity to sprite's velocity
+    sprite.position.add(sprite.velocity); // Update sprite's position based on velocity
 
-        // Collision with ground (simple check)
-        if (sprite.position.y + sprite.height >= ground.position.y) {
-            sprite.position.y = ground.position.y - sprite.height; // Reset sprite position
-            sprite.velocity.y = 0; // Stop falling
-        }
+    // Collision with ground (simple check)
+    if (sprite.position.y + sprite.height >= ground.position.y) {
+      sprite.position.y = ground.position.y - sprite.height; // Reset sprite position
+      sprite.velocity.y = 0; // Stop falling
     }
+  }
 
-    // Request the next frame
-    requestAnimationFrame(gameLoop);
+  // Request the next frame
+  requestAnimationFrame(gameLoop);
 }
 
 // Start the game loop

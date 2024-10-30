@@ -54,7 +54,7 @@ class MyTextViewProvider {
                 const idleAnimationURI = "${idleAnimationURI}";
                 const runAnimationURI = "${runAnimationURI}";
                 const jumpAnimationURI = "${jumpAnimationURI}";
-                const sprite = new WiseMan(new Vector2(0, 0), new Vector2(32, 40), 1.5, innerWidth, idleAnimationURI, runAnimationURI, jumpAnimationURI);
+                const sprite = new WiseMan(new Vector2(0, 0), new Vector2(32, 40), 2, innerWidth, idleAnimationURI, runAnimationURI, jumpAnimationURI);
             </script>
             <script src="${mainURI}"></script>
         </body>

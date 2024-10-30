@@ -2,71 +2,77 @@ class WiseMan {
     constructor(position, size, scale, canvasWidth, idleAnimationURI, runAnimationURI, jumpAnimationURI) {
         this.position = position;
         this.size = size.mul(scale);
-        this.velocity = new Vector2(0.5, 0); // Start with a constant horizontal movement speed
+        this.velocity = new Vector2(0.5, 0); // Initial horizontal movement speed
         this.canvasWidth = canvasWidth;
         this.direction = 1;
         this.isOnGround = false;
+        this.isHovered = false;
+        this.gravity = new Vector2(0, 0.2); // Constant gravity vector
         this.animationController = new AnimationController(this.size);
         this.initializeAnimations(idleAnimationURI, runAnimationURI, jumpAnimationURI);
     }
 
     initializeAnimations(idleAnimationURI, runAnimationURI, jumpAnimationURI) {
         this.animationController.addAnimation('Idle', idleAnimationURI, 4, 100);
+        this.animationController.addAnimation('Hover', idleAnimationURI, 4, 100);
         this.animationController.addAnimation('Run', runAnimationURI, 6, 100);
         this.animationController.addAnimation('Jump', jumpAnimationURI, 4, 100);
         this.animationController.playAnimation('Idle'); // Start with idle animation
     }
 
-    checkGroundCollision() {
-        // Check if the sprite bottom edge exceeds the ground's top edge
-        if (this.position.y + this.size.y >= ground.position.y) {
-            // Stop the sprite's downward movement
-            this.velocity.y = 0; 
-            
-            // Place the sprite on top of the ground
-            this.position.y = ground.position.y - this.size.y; 
-            
-            // Update the sprite's ground state
-            this.isOnGround = true; 
-        } else {
-            this.isOnGround = false; 
+    updatePosition() {
+        // Apply gravity when the sprite is in the air
+        if (this.isHovered) {
+            return;
+
+        }
+        if (!this.isOnGround) {
+            this.velocity = this.velocity.add(this.gravity);
+        }
+
+        // Update position based on velocity
+        this.position = this.position.add(this.velocity);
+
+        // Check for ground collision
+        this.checkGroundCollision();
+
+        // Reverse direction at canvas edges if on the ground
+        if (this.isOnGround && (this.position.x <= 0 || this.position.x + this.size.x >= this.canvasWidth)) {
+            this.velocity.x *= -1;  // Reverse direction
+            this.direction *= -1;  // Flip rendering direction
         }
     }
 
-    updatePosition() {
-        // Apply gravity when the sprite is in the air
-        if (!this.isOnGround) {
-            this.velocity = this.velocity.add(new Vector2(0, 0.2)); // Apply gravity
-        }
-
-        // Update the sprite's position based on their velocity
-        this.position = this.position.add(this.velocity);
-
-        // Check for ground collision after updating position
-        this.checkGroundCollision();
-
-        // Reverse direction if sprite hits the canvas boundary and is on the ground
-        if (this.isOnGround && (this.position.x <= 0 || this.position.x + this.size.x >= this.canvasWidth)) {
-            this.velocity.x *= -1;  // Reverse direction
-            this.direction *= -1;  // Flip the direction for rendering
+    checkGroundCollision() {
+        // Check if the sprite’s bottom edge is touching the ground
+        if (this.position.y + this.size.y >= ground.position.y) {
+            this.velocity.y = 0; // Stop vertical movement
+            this.position.y = ground.position.y - this.size.y; // Position on top of the ground
+            this.isOnGround = true;
+        } else {
+            this.isOnGround = false;
         }
     }
 
     updateAnimationState() {
-        // Ensure the sprite is in the 'Run' animation while moving
+        // Adjust animation based on movement and ground state
+        if (this.isHovered) {
+            this.animationController.playAnimation('Hover');
+            return;
+        }
         if (this.isOnGround) {
-            if (this.velocity.x !== 0) {
-                this.animationController.playAnimation('Run');
+            if (Math.abs(this.velocity.x) > 0.1) {
+                this.animationController.playAnimation('Run'); // Running animation
             } else {
-                this.animationController.playAnimation('Idle');
+                this.animationController.playAnimation('Idle'); // Idle animation
             }
         } else {
-            this.animationController.playAnimation('Jump');
+            this.animationController.playAnimation('Jump'); // Jumping animation
         }
     }
 
     render() {
-        this.animationController.draw(this.position, this.direction);
+        this.animationController.draw(this.position, this.direction); // Draw sprite based on current animation and direction
     }
 
     update() {
