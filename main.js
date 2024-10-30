@@ -30,7 +30,7 @@ const ground = new Rect2(new Vector2(0, canvas.height - 100), new Vector2(canvas
 
 // Function to render the background, filling it with sky blue
 const renderBackground = () => {
-    context.fillStyle = "skyblue";
+    context.fillStyle = "#ffffff";
     context.fillRect(0, 0, canvas.width, canvas.height);
 };
 
