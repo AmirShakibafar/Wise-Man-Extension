@@ -8,6 +8,7 @@ class DialogBox {
     this.dialogBox.style.padding = "10px"; // Increased padding for better visibility
     this.dialogBox.style.borderRadius = "5px";
     this.dialogBox.style.minWidth = "200px";
+    this.dialogBox.style.fontWeight = 800;
     this.dialogBox.style.left = "50%"; // Center it horizontally
     this.dialogBox.style.transform = "translateX(-50%)"; // Adjust for centering
     document.body.appendChild(this.dialogBox); // Append dialog to the body

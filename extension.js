@@ -36,8 +36,7 @@ class MyTextViewProvider {
       )
     );
 
-    const [idleAnimationURI, runAnimationURI, jumpAnimationURI] =
-      animationAssets;
+    const [idleAnimationURI, runAnimationURI, jumpAnimationURI] = animationAssets;
 
     // Create URIs for JSON
     const jsonFiles = ["quotes.json"].map((asset) =>
@@ -57,12 +56,10 @@ class MyTextViewProvider {
                 html, body {
                     margin: 0;
                     padding: 0;
-                    overflow: hidden; /* Prevent scrolling */
+                    overflow: hidden;
                     width: 100%;
                     height: 100%;
                 }
-
-    
                 canvas {
                     display: block;
                 }

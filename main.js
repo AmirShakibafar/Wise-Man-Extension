@@ -35,7 +35,7 @@ const renderBackground = () => {
 
 // Function to show a message in the sprite's dialog box
 const showHoverDialog = (message) => {
-  if (sprite.isHovered && sprite.isClicked) {
+  if (message) {
     dialogBox.show(message); // Show dialog above sprite
   } else {
     dialogBox.hide(); // Hide dialog when not hovering
