@@ -84,19 +84,9 @@ class MyTextViewProvider {
                 // Expose the quotesArray globally
                 window.quotesArray = [];
                 const readQuotesFromFile = async () => {
-                  try {
-                      const response = await fetch("${quotesURI}"); // Fetch the JSON file
-                      if (!response.ok) {
-                          throw new Error('Network response was not ok');
-                      }
-                      const quotesData = await response.json(); // Parse JSON
-                      window.quotesArray = quotesData.quotes; // Expose quotesArray to global scope
-                      console.log(window.quotesArray);
-                      gameLoop(); // Start the game loop after fetching quotes
-                  } catch (error) {
-                      console.error("Error fetching quotes:", error);
-                      window.quotesArray = []; // Default to an empty array on error
-                  }
+                    const response = await fetch("${quotesURI}"); // Fetch the JSON file
+                    const quotesData = await response.json(); // Parse JSON
+                    window.quotesArray = quotesData.quotes; // Expose quotesArray to global scope
                 }
             </script>
             <script src="${mainURI}"></script>

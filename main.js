@@ -61,7 +61,7 @@ const gameLoop = () => {
     showHoverDialog(`${quoteElement.quote} - ${quoteElement.author}`);
   } else {
     // Call showHoverDialog with empty message to hide it when not hovering
-    showHoverDialog(""); 
+    showHoverDialog("");
     sprite.isClicked = false;
   }
 
@@ -69,8 +69,17 @@ const gameLoop = () => {
   requestAnimationFrame(gameLoop);
 };
 
-
 // Event listeners
+// Helper function to check if the mouse is within the sprite's boundaries
+function isMouseWithinSprite(mouseX, mouseY, sprite) {
+  return (
+    mouseX >= sprite.position.x &&
+    mouseX <= sprite.position.x + sprite.size.x &&
+    mouseY >= sprite.position.y &&
+    mouseY <= sprite.position.y + sprite.size.y
+  );
+}
+
 // Add an event listener for the mousemove event on the canvas
 canvas.addEventListener("mousemove", (event) => {
   const rect = canvas.getBoundingClientRect();
@@ -78,16 +87,7 @@ canvas.addEventListener("mousemove", (event) => {
   const mouseY = event.clientY - rect.top;
 
   // Check if the mouse is within the WiseMan sprite's boundaries
-  if (
-    mouseX >= sprite.position.x &&
-    mouseX <= sprite.position.x + sprite.size.x &&
-    mouseY >= sprite.position.y &&
-    mouseY <= sprite.position.y + sprite.size.y
-  ) {
-    sprite.isHovered = true;
-  } else {
-    sprite.isHovered = false;
-  }
+  sprite.isHovered = isMouseWithinSprite(mouseX, mouseY, sprite);
 });
 
 // Add event listener for mouse click to cycle quotes
@@ -97,14 +97,9 @@ canvas.addEventListener("click", (event) => {
   const mouseY = event.clientY - rect.top;
 
   // Check if the mouse is within the WiseMan sprite's boundaries
-  if (
-    mouseX >= sprite.position.x &&
-    mouseX <= sprite.position.x + sprite.size.x &&
-    mouseY >= sprite.position.y &&
-    mouseY <= sprite.position.y + sprite.size.y
-  ) {
+  if (isMouseWithinSprite(mouseX, mouseY, sprite)) {
     // Increment index and wrap around
-    quotesIndex = (quotesIndex + 1) % window.quotesArray.length; 
+    quotesIndex = (quotesIndex + 1) % window.quotesArray.length;
     sprite.isClicked = true;
   }
 });
@@ -116,4 +111,11 @@ window.addEventListener("resize", resizeCanvas);
 resizeCanvas();
 
 // Call the function to populate quotesArray
-readQuotesFromFile(); // Fetch quotes and start the game loop
+// Fetch quotes and start the game loop
+
+const executeAfterFetchingQuotes = async () => {
+  await readQuotesFromFile(); // Waits for asyncFunction to complete
+  gameLoop();
+};
+
+executeAfterFetchingQuotes();
