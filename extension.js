@@ -39,15 +39,30 @@ class MyTextViewProvider {
     const [idleAnimationURI, runAnimationURI, jumpAnimationURI] =
       animationAssets;
 
+    // Create URIs for JSON
+    const jsonFiles = ["quotes.json"].map((asset) =>
+      webviewView.webview.asWebviewUri(
+        vscode.Uri.joinPath(vscode.Uri.file(__dirname), asset)
+      )
+    );
+
+    const [quotesURI] = jsonFiles;
+
     // Set the HTML content for the webview
     webviewView.webview.html = `
         <!DOCTYPE html>
         <html lang="en">
         <head>
             <style>
-                body {
+                html, body {
                     margin: 0;
+                    padding: 0;
+                    overflow: hidden; /* Prevent scrolling */
+                    width: 100%;
+                    height: 100%;
                 }
+
+    
                 canvas {
                     display: block;
                 }
@@ -68,6 +83,24 @@ class MyTextViewProvider {
                 const runAnimationURI = "${runAnimationURI}";
                 const jumpAnimationURI = "${jumpAnimationURI}";
                 const sprite = new WiseMan(new Vector2(0, 0), new Vector2(32, 40), 2, innerWidth, idleAnimationURI, runAnimationURI, jumpAnimationURI);
+
+                // Expose the quotesArray globally
+                window.quotesArray = [];
+                const readQuotesFromFile = async () => {
+                  try {
+                      const response = await fetch("${quotesURI}"); // Fetch the JSON file
+                      if (!response.ok) {
+                          throw new Error('Network response was not ok');
+                      }
+                      const quotesData = await response.json(); // Parse JSON
+                      window.quotesArray = quotesData.quotes; // Expose quotesArray to global scope
+                      console.log(window.quotesArray);
+                      gameLoop(); // Start the game loop after fetching quotes
+                  } catch (error) {
+                      console.error("Error fetching quotes:", error);
+                      window.quotesArray = []; // Default to an empty array on error
+                  }
+                }
             </script>
             <script src="${mainURI}"></script>
         </body>

@@ -15,6 +15,7 @@ class WiseMan {
     this.direction = 1;
     this.isOnGround = false;
     this.isHovered = false;
+    this.isClicked = false;
     this.gravity = new Vector2(0, 0.2); // Constant gravity vector
     this.animationController = new AnimationController(this.size);
     this.initializeAnimations(

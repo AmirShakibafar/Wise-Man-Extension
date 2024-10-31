@@ -15,9 +15,9 @@ const ground = new Rect2(
   new Vector2(canvas.width, 0)
 );
 
+let quotesIndex = 0; // Index for tracking current quote
 const dialogBox = new DialogBox();
 
-// Functions
 // Function to resize canvas and update properties depending on canvas dimensions
 const resizeCanvas = () => {
   sprite.canvasWidth = canvas.width = innerWidth;
@@ -33,16 +33,16 @@ const renderBackground = () => {
   context.fillRect(0, 0, canvas.width, canvas.height);
 };
 
-// Function to show a messege in sprites dialog box
+// Function to show a message in the sprite's dialog box
 const showHoverDialog = (message) => {
-  if (sprite.isHovered) {
-    dialogBox.show(`${message}`, sprite.position.x, sprite.position.y); // Show dialog above sprite
+  if (sprite.isHovered && sprite.isClicked) {
+    dialogBox.show(message); // Show dialog above sprite
   } else {
     dialogBox.hide(); // Hide dialog when not hovering
   }
 };
 
-// Update the game loop to include the dialog display logic
+// Game loop function
 const gameLoop = () => {
   // Render the background
   renderBackground();
@@ -51,16 +51,24 @@ const gameLoop = () => {
   ground.render("#004346");
 
   // Update the sprite's position and animation
-
   sprite.update(); // Apply gravity and check for collisions here
   sprite.velocity.add(GRAVITY); // Apply gravity to sprite's velocity
   sprite.position.add(sprite.velocity); // Update sprite's position based on velocity
 
-  // Show dialog if hovered
-  showHoverDialog("hello to all of you!");
+  // Show dialog if hovered and quotes are available
+  if (sprite.isHovered && sprite.isClicked) {
+    const quoteElement = window.quotesArray[quotesIndex]; // Get the current quote
+    showHoverDialog(`${quoteElement.quote} - ${quoteElement.author}`);
+  } else {
+    // Call showHoverDialog with empty message to hide it when not hovering
+    showHoverDialog(""); 
+    sprite.isClicked = false;
+  }
+
   // Request the next frame
   requestAnimationFrame(gameLoop);
 };
+
 
 // Event listeners
 // Add an event listener for the mousemove event on the canvas
@@ -82,10 +90,30 @@ canvas.addEventListener("mousemove", (event) => {
   }
 });
 
+// Add event listener for mouse click to cycle quotes
+canvas.addEventListener("click", (event) => {
+  const rect = canvas.getBoundingClientRect();
+  const mouseX = event.clientX - rect.left;
+  const mouseY = event.clientY - rect.top;
+
+  // Check if the mouse is within the WiseMan sprite's boundaries
+  if (
+    mouseX >= sprite.position.x &&
+    mouseX <= sprite.position.x + sprite.size.x &&
+    mouseY >= sprite.position.y &&
+    mouseY <= sprite.position.y + sprite.size.y
+  ) {
+    // Increment index and wrap around
+    quotesIndex = (quotesIndex + 1) % window.quotesArray.length; 
+    sprite.isClicked = true;
+  }
+});
+
 // Add event listener for window resize
 window.addEventListener("resize", resizeCanvas);
 
 // Initial call to set canvas size
 resizeCanvas();
-// Start the game loop
-gameLoop();
+
+// Call the function to populate quotesArray
+readQuotesFromFile(); // Fetch quotes and start the game loop
