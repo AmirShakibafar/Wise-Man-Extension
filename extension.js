@@ -47,6 +47,14 @@ class MyTextViewProvider {
 
     const [quotesURI] = jsonFiles;
 
+    const scripts = [
+      dialogBoxURI,
+      vectorURI,
+      rectangleURI,
+      spriteAnimationURI,
+      animationControllerURI,
+      wiseManURI
+  ];
     // Set the HTML content for the webview
     webviewView.webview.html = `
         <!DOCTYPE html>
@@ -69,12 +77,7 @@ class MyTextViewProvider {
             <title>Cyberpunk</title>
         </head>
         <body>
-            <script src="${dialogBoxURI}"></script>
-            <script src="${vectorURI}"></script>
-            <script src="${rectangleURI}"></script>
-            <script src="${spriteAnimationURI}"></script>
-            <script src="${animationControllerURI}"></script>
-            <script src="${wiseManURI}"></script>
+            ${scripts.map(scriptURI => `<script src="${scriptURI}"></script>`).join('')}  
             <script>
                 const idleAnimationURI = "${idleAnimationURI}";
                 const runAnimationURI = "${runAnimationURI}";
