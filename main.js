@@ -21,7 +21,7 @@ const dialogBox = new DialogBox();
 // Function to resize canvas and update properties depending on canvas dimensions
 const resizeCanvas = () => {
   sprite.canvasWidth = canvas.width = innerWidth;
-  canvas.height = 200;
+  canvas.height = 220;
   ground.size = new Vector2(canvas.width, 20);
   ground.position = new Vector2(0, canvas.height - 20);
   context.imageSmoothingEnabled = false;
@@ -42,6 +42,13 @@ const showHoverDialog = (message) => {
   }
 };
 
+const showEyesAlert = (con) => {
+  if (con) {
+    eyesAlert.show(); // Show dialog above sprite
+  } else {
+    eyesAlert.hide(); // Hide dialog when not hovering
+  }
+};
 // Game loop function
 const gameLoop = () => {
   // Render the background
@@ -117,5 +124,7 @@ const executeAfterFetchingQuotes = async () => {
   await readQuotesFromFile(); // Waits for asyncFunction to complete
   gameLoop();
 };
+
+showEyesAlert(true);
 
 executeAfterFetchingQuotes();

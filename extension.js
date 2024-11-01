@@ -32,20 +32,34 @@ class MyTextViewProvider {
       "Biker_jump.png",
     ].map((asset) =>
       webviewView.webview.asWebviewUri(
-        vscode.Uri.joinPath(vscode.Uri.file(__dirname), "assets", asset)
+        vscode.Uri.joinPath(
+          vscode.Uri.file(__dirname),
+          "assets",
+          "animations",
+          asset
+        )
       )
     );
 
-    const [idleAnimationURI, runAnimationURI, jumpAnimationURI] = animationAssets;
+    const [idleAnimationURI, runAnimationURI, jumpAnimationURI] =
+      animationAssets;
 
     // Create URIs for JSON
     const jsonFiles = ["quotes.json"].map((asset) =>
       webviewView.webview.asWebviewUri(
-        vscode.Uri.joinPath(vscode.Uri.file(__dirname), asset)
+        vscode.Uri.joinPath(vscode.Uri.file(__dirname), "assets", asset)
+      )
+    );
+
+    // Create URIs for JSON
+    const gifFiles = ["eye_gif.gif", "drink-water.gif"].map((asset) =>
+      webviewView.webview.asWebviewUri(
+        vscode.Uri.joinPath(vscode.Uri.file(__dirname), "assets", "gifs", asset)
       )
     );
 
     const [quotesURI] = jsonFiles;
+    const [eyeGif, waterGif] = gifFiles;
 
     const scripts = [
       dialogBoxURI,
@@ -53,8 +67,8 @@ class MyTextViewProvider {
       rectangleURI,
       spriteAnimationURI,
       animationControllerURI,
-      wiseManURI
-  ];
+      wiseManURI,
+    ];
     // Set the HTML content for the webview
     webviewView.webview.html = `
         <!DOCTYPE html>
@@ -77,13 +91,21 @@ class MyTextViewProvider {
             <title>Cyberpunk</title>
         </head>
         <body>
-            ${scripts.map(scriptURI => `<script src="${scriptURI}"></script>`).join('')}  
+            ${scripts
+              .map((scriptURI) => `<script src="${scriptURI}"></script>`)
+              .join("")}  
             <script>
                 const idleAnimationURI = "${idleAnimationURI}";
                 const runAnimationURI = "${runAnimationURI}";
                 const jumpAnimationURI = "${jumpAnimationURI}";
                 const sprite = new WiseMan(new Vector2(0, 0), new Vector2(32, 40), 2, innerWidth, idleAnimationURI, runAnimationURI, jumpAnimationURI);
-
+                const eyesAlert = new AlertBox(
+                  "${eyeGif}", 
+                  "look away for a minute will ya?", 
+                  () => {
+                    console.log('User confirmed!'); // Callback action on confirm
+                  }
+                );
                 // Expose the quotesArray globally
                 window.quotesArray = [];
                 const readQuotesFromFile = async () => {
