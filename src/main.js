@@ -3,8 +3,6 @@ const canvas = document.createElement("canvas");
 const context = canvas.getContext("2d");
 document.body.append(canvas);
 
-// Set frames per second (not necessary with requestAnimationFrame but kept for reference)
-const FPS = 120;
 
 // Define gravity as a small downward force (affects sprite's vertical velocity)
 const GRAVITY = new Vector2(0, 0.1);
@@ -36,25 +34,41 @@ const renderBackground = () => {
 // Function to show a message in the sprite's dialog box
 const showHoverDialog = (message) => {
   if (message) {
-    dialogBox.show(message); // Show dialog above sprite
+    dialogBox.show(message); 
   } else {
-    dialogBox.hide(); // Hide dialog when not hovering
+    dialogBox.hide(); 
   }
 };
 
-const showEyesAlert = (con) => {
-  if (con) {
-    eyesAlert.show(); // Show dialog above sprite
+const showEyesAlert = (condition) => {
+  if (condition) {
+      alertManager.enqueue(eyesAlert, 10000); // Show for 10 seconds for testing
   } else {
-    eyesAlert.hide(); // Hide dialog when not hovering
+      eyesAlert.hide();
   }
 };
+
+const showWaterAlert = (condition) => {
+  if (condition) {
+      alertManager.enqueue(waterAlert, 10000); // Show for 10 seconds for testing
+  } else {
+      waterAlert.hide(); 
+  }
+};
+
+const showWalkAlert = (condition) => {
+  if (condition) {
+      alertManager.enqueue(walkAlert, 10000); // Show for 10 seconds for testing
+  } else {
+      walkAlert.hide(); 
+  }
+};
+
+
+
 // Game loop function
 const gameLoop = () => {
-  // Render the background
   renderBackground();
-
-  // Render the ground
   ground.render("#004346");
 
   // Update the sprite's position and animation
@@ -67,7 +81,6 @@ const gameLoop = () => {
     const quoteElement = window.quotesArray[quotesIndex]; // Get the current quote
     showHoverDialog(`${quoteElement.quote} - ${quoteElement.author}`);
   } else {
-    // Call showHoverDialog with empty message to hide it when not hovering
     showHoverDialog("");
     sprite.isClicked = false;
   }
@@ -93,7 +106,6 @@ canvas.addEventListener("mousemove", (event) => {
   const mouseX = event.clientX - rect.left;
   const mouseY = event.clientY - rect.top;
 
-  // Check if the mouse is within the WiseMan sprite's boundaries
   sprite.isHovered = isMouseWithinSprite(mouseX, mouseY, sprite);
 });
 
@@ -103,9 +115,8 @@ canvas.addEventListener("click", (event) => {
   const mouseX = event.clientX - rect.left;
   const mouseY = event.clientY - rect.top;
 
-  // Check if the mouse is within the WiseMan sprite's boundaries
+
   if (isMouseWithinSprite(mouseX, mouseY, sprite)) {
-    // Increment index and wrap around
     quotesIndex = (quotesIndex + 1) % window.quotesArray.length;
     sprite.isClicked = true;
   }
@@ -119,12 +130,26 @@ resizeCanvas();
 
 // Call the function to populate quotesArray
 // Fetch quotes and start the game loop
-
 const executeAfterFetchingQuotes = async () => {
   await readQuotesFromFile(); // Waits for asyncFunction to complete
   gameLoop();
 };
 
-showEyesAlert(true);
+const alertManager = new AlertManager();
+setInterval(() => {
+  alertManager.enqueue(waterAlert, 2000); // Queue water alert every 20 seconds for testing
+}, 10000); // Replace with actual timing
+
+setInterval(() => {
+  alertManager.enqueue(walkAlert, 2000); // Queue walk alert every 30 seconds for testing
+}, 20000); // Replace with actual timing
+
+setInterval(() => {
+  alertManager.enqueue(eyesAlert, 2000); // Queue eyes alert every 20 seconds for testing
+}, 5000); // Replace with actual timing
+
+
+
+
 
 executeAfterFetchingQuotes();

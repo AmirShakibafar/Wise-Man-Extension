@@ -1,7 +1,7 @@
 class DialogBox {
   constructor() {
     this.dialogBox = document.createElement("div");
-    this.dialogBox.style.display = "none";
+    this.dialogBox.style.display = "none"; 
     this.dialogBox.style.position = "fixed"; // Fixed position relative to the viewport
     this.dialogBox.style.background = "rgba(0, 67, 70, 0.763)";
     this.dialogBox.style.color = "#fafafa";
@@ -22,38 +22,31 @@ class DialogBox {
   }
 
   show(message) {
-    this.dialogContent.textContent = message;
-    this.position("5px");
-    this.dialogBox.style.display = "block";
+    this.dialogContent.textContent = message; 
+    this.dialogBox.style.display = "flex"; 
     requestAnimationFrame(() => {
-      this.dialogBox.style.opacity = "1";
+      this.dialogBox.style.opacity = "1"; 
       this.dialogBox.style.transform = "translate(-50%, 0)";
     });
   }
 
   hide() {
-    this.dialogBox.style.opacity = "0";
+    this.dialogBox.style.opacity = "0"; 
     this.dialogBox.addEventListener(
       "transitionend",
       () => {
-        this.dialogBox.style.display = "none";
+        this.dialogBox.style.display = "none"; 
       },
       { once: true }
     );
   }
-
-  position(top) {
-    this.dialogBox.style.top = top;
-  }
 }
 
+// Extend DialogBox for Alerts
 class AlertBox extends DialogBox {
   constructor(imageSrc, message, callback) {
     super();
     this.dialogBox.innerHTML = ""; // Clear previous content
-    this.dialogBox.style.padding = "10px";
-    this.dialogBox.style.margin = "10px 0";
-    this.dialogBox.style.display = "none";
     this.dialogBox.style.flexDirection = "column";
     this.dialogBox.style.alignItems = "center";
 
@@ -74,7 +67,7 @@ class AlertBox extends DialogBox {
 
     // Create confirm button
     this.confirmButton = document.createElement("button");
-    this.confirmButton.textContent = "Confirm";
+    this.confirmButton.textContent = "Will Do!";
     this.confirmButton.style.backgroundColor = "#172A3A";
     this.confirmButton.style.color = "#fafafa";
     this.confirmButton.style.padding = "5px";
@@ -87,13 +80,13 @@ class AlertBox extends DialogBox {
 
     // Add hover effect with JavaScript events
     this.confirmButton.addEventListener("mouseenter", () => {
-      this.confirmButton.style.backgroundColor = "#fafafa"; // Change color on hover
+      this.confirmButton.style.backgroundColor = "#fafafa"; 
       this.confirmButton.style.color = "#172A3A";
       this.confirmButton.style.transform = "scale(1.1)";
     });
 
     this.confirmButton.addEventListener("mouseleave", () => {
-      this.confirmButton.style.backgroundColor = "#172A3A"; // Revert color when not hovered
+      this.confirmButton.style.backgroundColor = "#172A3A"; 
       this.confirmButton.style.color = "#fafafa";
       this.confirmButton.style.transform = "scale(1)";
     });
@@ -104,14 +97,36 @@ class AlertBox extends DialogBox {
     this.callback = callback;
   }
 
-  show() {
-    this.dialogBox.style.display = "flex";
-  }
-
   confirm() {
     if (this.callback) {
       this.callback();
     }
-    this.hide();
+    this.hide(); 
+  }
+}
+
+class AlertManager {
+  constructor() {
+    this.alertQueue = [];
+    this.isShowing = false; 
+  }
+
+  enqueue(alertBox, displayTime) {
+    this.alertQueue.push({ alertBox, displayTime });
+    this.processQueue();
+  }
+
+  processQueue() {
+    if (this.isShowing || this.alertQueue.length === 0) return; 
+
+    const { alertBox, displayTime } = this.alertQueue.shift(); 
+    this.isShowing = true; 
+
+    alertBox.show();
+    setTimeout(() => {
+      alertBox.hide();
+      this.isShowing = false; 
+      this.processQueue();
+    }, displayTime);
   }
 }

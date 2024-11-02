@@ -13,7 +13,7 @@ class MyTextViewProvider {
       "vector.js",
       "rectangle.js",
       "dialogBox.js",
-    ].map((file) => vscode.Uri.joinPath(vscode.Uri.file(__dirname), file));
+    ].map((file) => vscode.Uri.joinPath(vscode.Uri.file(__dirname), "src", file));
 
     const [
       mainURI,
@@ -50,17 +50,21 @@ class MyTextViewProvider {
         vscode.Uri.joinPath(vscode.Uri.file(__dirname), "assets", asset)
       )
     );
+    const [quotesURI] = jsonFiles;
 
-    // Create URIs for JSON
-    const gifFiles = ["eye_gif.gif", "drink-water.gif"].map((asset) =>
+    // Create URIs for GIFs
+    const gifFiles = [
+      "eye_gif.gif",
+      "drink-water.gif",
+      "hood-irony-hood.gif",
+    ].map((asset) =>
       webviewView.webview.asWebviewUri(
         vscode.Uri.joinPath(vscode.Uri.file(__dirname), "assets", "gifs", asset)
       )
     );
+    const [eyeGif, waterGif, walkGif] = gifFiles;
 
-    const [quotesURI] = jsonFiles;
-    const [eyeGif, waterGif] = gifFiles;
-
+    // create script list that can be called before main with no problem to add files dynamically 
     const scripts = [
       dialogBoxURI,
       vectorURI,
@@ -106,6 +110,24 @@ class MyTextViewProvider {
                     console.log('User confirmed!'); // Callback action on confirm
                   }
                 );
+                const walkAlert = new AlertBox(
+                  "${walkGif}", 
+                  "you've been coding a lot go for a walk!", 
+                  () => {
+                    console.log('User confirmed!'); // Callback action on confirm
+                  }
+                );
+                walkAlert.image.style.height = "45px";
+
+                const waterAlert = new AlertBox(
+                  "${waterGif}", 
+                  "why dont you have some water?", 
+                  () => {
+                    console.log('User confirmed!'); // Callback action on confirm
+                  }
+                );
+                waterAlert.image.style.height = "45px";
+                
                 // Expose the quotesArray globally
                 window.quotesArray = [];
                 const readQuotesFromFile = async () => {
