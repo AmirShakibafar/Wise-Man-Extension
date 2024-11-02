@@ -6,16 +6,6 @@
             "author": "Rumi"
         },
         {
-            "id": 2,
-            "quote": "The Bay of Bengal is hit frequently by cyclones. The months of November and May, in particular, are dangerous in this regard.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 3,
-            "quote": "Thinking is the capital, Enterprise is the way, Hard Work is the solution.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 4,
             "quote": "If You Can'T Make It Good, At Least Make It Look Good.",
             "author": "Bill Gates"
@@ -26,24 +16,9 @@
             "author": "Rumi"
         },
         {
-            "id": 6,
-            "quote": "It is bad for a young man to sin; but it is worse for an old man to sin.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 7,
             "quote": "If You Are Out To Describe The Truth, Leave Elegance To The Tailor.",
             "author": "Albert Einstein"
-        },
-        {
-            "id": 8,
-            "quote": "O man you are busy working for the world, and the world is busy trying to turn you out.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 9,
-            "quote": "While children are struggling to be unique, the world around them is trying all means to make them look like everybody else.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 10,
@@ -54,11 +29,6 @@
             "id": 11,
             "quote": "I Don'T Believe In Failure. It Is Not Failure If You Enjoyed The Process.",
             "author": "Oprah Winfrey"
-        },
-        {
-            "id": 12,
-            "quote": "Do not get elated at any victory, for all such victory is subject to the will of God.",
-            "author": "Abu Bakr (R.A)"
         },
         {
             "id": 13,
@@ -76,11 +46,6 @@
             "author": "William Shakespeare"
         },
         {
-            "id": 16,
-            "quote": "One Of The Greatest Diseases Is To Be Nobody To Anybody.",
-            "author": "Mother Teresa"
-        },
-        {
             "id": 17,
             "quote": "I'm so fast that last night I turned off the light switch in my hotel room and was in bed before the room was dark.",
             "author": "Muhammad Ali"
@@ -96,11 +61,6 @@
             "author": "Rumi"
         },
         {
-            "id": 20,
-            "quote": "The less of the World, the freer you live.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 21,
             "quote": "Respond to every call that excites your spirit.",
             "author": "Rumi"
@@ -111,24 +71,9 @@
             "author": "Walt Disney"
         },
         {
-            "id": 23,
-            "quote": "God Doesn'T Require Us To Succeed, He Only Requires That You Try.",
-            "author": "Mother Teresa"
-        },
-        {
             "id": 24,
             "quote": "Speak any language, Turkish, Greek, Persian, Arabic, but always speak with love.",
             "author": "Rumi"
-        },
-        {
-            "id": 25,
-            "quote": "Happiness comes towards those which believe in him.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 26,
-            "quote": "Knowledge is of two kinds: that which is absorbed and that which is heard. And that which is heard does not profit if it is not absorbed.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 27,
@@ -156,11 +101,6 @@
             "author": "Socrates"
         },
         {
-            "id": 32,
-            "quote": "Let us sacrifice our today so that our children can have a better tomorrow.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 33,
             "quote": "Your task is not to seek for love, but merely to seek and find all the barriers within yourself that you have built against it.",
             "author": "Rumi"
@@ -174,11 +114,6 @@
             "id": 35,
             "quote": "Everything in the universe is within you. Ask all from yourself.",
             "author": "Rumi"
-        },
-        {
-            "id": 36,
-            "quote": "I'm not a handsome guy, but I can give my hand to someone who needs help. Beauty is in the heart, not in the face.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 37,
@@ -206,11 +141,6 @@
             "author": "Rumi"
         },
         {
-            "id": 42,
-            "quote": "If You Like Your Brother And He'S Prospering, You'Ll Be Pleased For Him.",
-            "author": "Hamad Bin Isa Al Khalifa"
-        },
-        {
             "id": 43,
             "quote": "Success Is Dependent Upon The Glands - Sweat Glands.",
             "author": "Zig Ziglar"
@@ -219,11 +149,6 @@
             "id": 44,
             "quote": "Champions are not generated from the championship. Champion is generated from something they have in them, desires, dreams, and visions.",
             "author": "Muhammad Ali"
-        },
-        {
-            "id": 45,
-            "quote": "No matter what is the environment around you, it is always possible to maintain your brand of integrity.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 46,
@@ -246,16 +171,6 @@
             "author": "Stephen King"
         },
         {
-            "id": 50,
-            "quote": "Sometimes the people with the worst past, create the best future.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 51,
-            "quote": "Every day, nay every moment, try to do some good deed.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 52,
             "quote": "No Matter What People Tell You, Words And Ideas Can Change The World.",
             "author": "Robin Williams"
@@ -274,11 +189,6 @@
             "id": 55,
             "quote": "Goodbyes are only for those who love with their eyes. Because for those who love with heart and soul there is no such thing as separation.",
             "author": "Rumi"
-        },
-        {
-            "id": 56,
-            "quote": "The best revenge is to improve yourself.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 57,
@@ -316,11 +226,6 @@
             "author": "Winston Churchill"
         },
         {
-            "id": 64,
-            "quote": "India has to be transformed into a developed nation, a prosperous nation and a healthy nation, with a value system.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 65,
             "quote": "It's not bragging if you can back it up.",
             "author": "Muhammad Ali"
@@ -339,11 +244,6 @@
             "id": 68,
             "quote": "Words Are Only Painted Fire; A Look Is The Fire Itself.",
             "author": "Mark Twain"
-        },
-        {
-            "id": 69,
-            "quote": "Words, Without Power, Is Mere Philosophy.",
-            "author": "Muhammad Iqbal"
         },
         {
             "id": 70,
@@ -366,11 +266,6 @@
             "author": "Rumi"
         },
         {
-            "id": 74,
-            "quote": "Earning of livelihood by following some profession is better than living on charity.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 75,
             "quote": "Burdens are the foundations of ease and bitter things the forerunners of pleasure.",
             "author": "Rumi"
@@ -389,11 +284,6 @@
             "id": 78,
             "quote": "No Great Intellectual Thing Was Ever Done By Great Effort.",
             "author": "Theodore Roosevelt"
-        },
-        {
-            "id": 79,
-            "quote": "To fight against one's desires is the greatest of all fights.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 80,
@@ -461,11 +351,6 @@
             "author": "Warren Buffett"
         },
         {
-            "id": 93,
-            "quote": "Convergence of our views on global trade issues under the WTO and our common resolve to combat terrorism provide a valuable base for mutual understanding.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 94,
             "quote": "Whenever You Find Yourself On The Side Of The Majority, It Is Time To Pause And Reflect.",
             "author": "Mark Twain"
@@ -501,11 +386,6 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 101,
-            "quote": "He who avoids complaint invites happiness.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 102,
             "quote": "We are the mirror - As well as the face in it.",
             "author": "Rumi"
@@ -516,34 +396,14 @@
             "author": "Rumi"
         },
         {
-            "id": 104,
-            "quote": "For 2,500 years, India has never invaded anybody.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 105,
             "quote": "If Past History Was All There Was To The Game, The Richest People Would Be Librarians.",
             "author": "Warren Buffett"
         },
         {
-            "id": 106,
-            "quote": "Your souls are precious and can only be equal to the price of Paradise, therefore sell them only at that price.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 107,
             "quote": "A Wise Man Can Learn More From A Foolish Question Than A Fool Can Learn From A Wise Answer.",
             "author": "Bruce Lee"
-        },
-        {
-            "id": 108,
-            "quote": "If Allah wants for a people ill, he gives them debates and takes away from them actions.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 109,
-            "quote": "He who builds a masjid in the way of Allah, God will build a house for him in the paradise.",
-            "author": "Abu Bakr (R.A)"
         },
         {
             "id": 110,
@@ -556,11 +416,6 @@
             "author": "Mark Twain"
         },
         {
-            "id": 112,
-            "quote": "An alert and learned man will take advice from any event.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 113,
             "quote": "I don't count my sit-ups. I only start counting when it starts hurting. When I feel pain, that's when I start counting, because that's when it really counts.",
             "author": "Muhammad Ali"
@@ -569,11 +424,6 @@
             "id": 114,
             "quote": "The wound is the place where the Light enters you.",
             "author": "Rumi"
-        },
-        {
-            "id": 115,
-            "quote": "Luxury is an obstacle, and so is the fatness of the body.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 116,
@@ -611,16 +461,6 @@
             "author": "Benjamin Franklin"
         },
         {
-            "id": 123,
-            "quote": "Good Actions Are A Guard Against The Blows Of Adversity.",
-            "author": "Abu Bakr"
-        },
-        {
-            "id": 124,
-            "quote": "Use the same measure for selling that you use for purchasing.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 125,
             "quote": "The Secret Of Getting Ahead Is Getting Started",
             "author": "Mark Twain"
@@ -656,16 +496,6 @@
             "author": "Maya Angelou"
         },
         {
-            "id": 132,
-            "quote": "Everyone who is taken by death asks for more time, while everyone who still has time makes excuses for procrastination.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 133,
-            "quote": "I wonder at a man who loses hope of salvation when the door of repentance is open for him.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 134,
             "quote": "Don't count the days, make the days count.",
             "author": "Muhammad Ali"
@@ -691,11 +521,6 @@
             "author": "Nelson Mandela"
         },
         {
-            "id": 139,
-            "quote": "The Difference Between A Mountain And A Molehill Is Your Perspective.",
-            "author": "Al Neuharth"
-        },
-        {
             "id": 140,
             "quote": "I Am Certainly Not One Of Those Who Need To Be Prodded. In Fact, If Anything, I Am The Prod.",
             "author": "Winston Churchill"
@@ -709,11 +534,6 @@
             "id": 142,
             "quote": "There is a King Who is aware of every Mask you put on.",
             "author": "Rumi"
-        },
-        {
-            "id": 143,
-            "quote": "Be patient; patience is a pillar of faith.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 144,
@@ -736,11 +556,6 @@
             "author": "Aristotle"
         },
         {
-            "id": 148,
-            "quote": "Run away from greatness and greatness will follow you.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 149,
             "quote": "You may learn to imitate a birdcall, but do you experience what the nightingale feels for the rose?",
             "author": "Rumi"
@@ -751,34 +566,9 @@
             "author": "Aristotle"
         },
         {
-            "id": 151,
-            "quote": "Blessed is he whose own faults keep him from seeing the faults of others.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 152,
-            "quote": "The most helpless person is the one who is helpless in reforming himself.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 153,
-            "quote": "He who fears to weep, should learn to be kind to those who weep.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 154,
             "quote": "My wealth is in my knowledge of self, love, and spirituality.",
             "author": "Muhammad Ali"
-        },
-        {
-            "id": 155,
-            "quote": "He who aspires to paradise should learn to deal with people with kindness.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 156,
-            "quote": "All God's creatures are His family; and he is the most beloved of God who tries to do most good to God's creatures.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 157,
@@ -806,29 +596,9 @@
             "author": "Albert Einstein"
         },
         {
-            "id": 162,
-            "quote": "The best companion and helper is admirable morals.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 163,
             "quote": "Man Will Do Many Things To Get Himself Loved, He Will Do All Things To Get Himself Envied.",
             "author": "Mark Twain"
-        },
-        {
-            "id": 164,
-            "quote": "When you seek advice, do not withhold any facts from the person whose advice you seek.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 165,
-            "quote": "I have never regretted my silence. As for my speech, I have regretted it over and over again.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 166,
-            "quote": "Don't read success stories, you will only get a message. Read failure stories, you will get some ideas to get success.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 167,
@@ -844,11 +614,6 @@
             "id": 169,
             "quote": "All Men'S Souls Are Immortal, But The Souls Of The Righteous Are Immortal And Divine.",
             "author": "Socrates"
-        },
-        {
-            "id": 170,
-            "quote": "Abstinence from sins is better than seeking help afterwards.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 171,
@@ -891,16 +656,6 @@
             "author": "Confucius"
         },
         {
-            "id": 179,
-            "quote": "We'Re Getting Hurt, But I'M A Long-Term Investor.",
-            "author": "Al Waleed Bin Talal"
-        },
-        {
-            "id": 180,
-            "quote": "Recitation of the Qur'an without contemplation and thought is futile.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 181,
             "quote": "Success is not achieved by winning all the time. Real success comes when we rise after we fall. Some mountains are higher than others. Some roads steeper than the next. There are hardships and setbacks but you cannot let them stop you. Even on the steepest road you must not turn back.",
             "author": "Muhammad Ali"
@@ -914,16 +669,6 @@
             "id": 183,
             "quote": "The Law Is Reason, Free From Passion.",
             "author": "Aristotle"
-        },
-        {
-            "id": 184,
-            "quote": "The people who abandon Jihad fall a victim to humility and degradation.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 185,
-            "quote": "We are all born with a divine fire in us. Our efforts should be to give wings to this fire and fill the world with the glow of its goodness.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 186,
@@ -946,11 +691,6 @@
             "author": "Rumi"
         },
         {
-            "id": 190,
-            "quote": "How many lessons there are and how little they are taken.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 191,
             "quote": "The best way to make your dreams come true is to wake up.",
             "author": "Muhammad Ali"
@@ -971,11 +711,6 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 195,
-            "quote": "No amount of guilt can change the past and no amount of worrying can change the future.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 196,
             "quote": "Not the ones speaking the same language, but the ones sharing the same feeling understand each other.",
             "author": "Rumi"
@@ -989,11 +724,6 @@
             "id": 198,
             "quote": "Success Is A Lousy Teacher. It Seduces Smart People Into Thinking They Can'T Lose.",
             "author": "Bill Gates"
-        },
-        {
-            "id": 199,
-            "quote": "Cursed is the man who dies, but the evil done by him survives.",
-            "author": "Abu Bakr (R.A)"
         },
         {
             "id": 200,
@@ -1016,34 +746,14 @@
             "author": "Rumi"
         },
         {
-            "id": 204,
-            "quote": "Hold on to your Salah, because if you lose that, you will lose everything else.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 205,
             "quote": "I am not this hair. I am not this skin. I am the soul that lives within.",
             "author": "Rumi"
         },
         {
-            "id": 206,
-            "quote": "Be Faithful In Small Things Because It Is In Them That Your Strength Lies.",
-            "author": "Mother Teresa"
-        },
-        {
-            "id": 207,
-            "quote": "He who sleeps without offering the night prayer, may he never enjoy a sound sleep.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 208,
             "quote": "I Was Influenced A Lot By Those Around Me - There Was A Lot Of Singing That Went On In The Cotton Fields.",
             "author": "Willie Nelson"
-        },
-        {
-            "id": 209,
-            "quote": "Greed is permanent slavery.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 210,
@@ -1096,34 +806,14 @@
             "author": "J. K. Rowling"
         },
         {
-            "id": 220,
-            "quote": "Courtesy costs nothing, but buys everything.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 221,
-            "quote": "If patience and gratitude had been she camels, it would have mattered little on which I rode.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 222,
             "quote": "Success Consists Of Going From Failure To Failure Without Loss Of Enthusiasm.",
             "author": "Winston Churchill"
         },
         {
-            "id": 223,
-            "quote": "When you advise any person you should be guided by the fear of God.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 224,
             "quote": "A Candle never Loses any of its Light while Lighting up another candle.",
             "author": "Rumi"
-        },
-        {
-            "id": 225,
-            "quote": "What Can You Do To Promote World Peace? Go Home And Love Your Family.",
-            "author": "Mother Teresa"
         },
         {
             "id": 226,
@@ -1151,16 +841,6 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 231,
-            "quote": "He who went to the kings to seek favors went away from Allah.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 232,
-            "quote": "Oh writer! An Angel watches over all you write. Make your writing meaningful for it will eventually return to you and you will be questioned about what you wrote.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 233,
             "quote": "Speak a new language so that the world will be a new world.",
             "author": "Rumi"
@@ -1181,19 +861,9 @@
             "author": "Thomas A. Edison"
         },
         {
-            "id": 237,
-            "quote": "We have not invaded anyone. We have not conquered anyone. We have not grabbed their land, their culture, their history and tried to enforce our way of life on them.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 238,
             "quote": "I have been a seeker and I still am, but I stopped asking the books and the stars. I started listening to the teaching of my Soul.",
             "author": "Rumi"
-        },
-        {
-            "id": 239,
-            "quote": "Be active! Take on responsibility! Work for the things you believe in. If you do not, you are surrendering your fate to others.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 240,
@@ -1201,24 +871,9 @@
             "author": "Mark Twain"
         },
         {
-            "id": 241,
-            "quote": "Developing nations want to become developed nations.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 242,
             "quote": "We are born of love. Love is our mother.",
             "author": "Rumi"
-        },
-        {
-            "id": 243,
-            "quote": "I Just Feel Happy To Be In America, Like I Said, It'S The Most Beautiful Country In The World.",
-            "author": "Ahmed Ali"
-        },
-        {
-            "id": 244,
-            "quote": "Do for this life as if you live forever, do for the afterlife as if you will die tomorrow.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 245,
@@ -1234,11 +889,6 @@
             "id": 247,
             "quote": "Last night I had a dream. When I got to Africa, I had one hell of a rumble. I had to beat Tarzan's behind first, for claiming to be King of the Jungle.",
             "author": "Muhammad Ali"
-        },
-        {
-            "id": 248,
-            "quote": "I Have Found The Paradox, That If You Love Until It Hurts, There Can Be No More Hurt, Only More Love.",
-            "author": "Mother Teresa"
         },
         {
             "id": 249,
@@ -1291,19 +941,9 @@
             "author": "Bill Gates"
         },
         {
-            "id": 259,
-            "quote": "Stubbornness destroys good advice.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 260,
             "quote": "My definition of evil is unfriendliness.",
             "author": "Muhammad Ali"
-        },
-        {
-            "id": 261,
-            "quote": "Climbing to the top demands strength, whether it is to the top of Mount Everest or to the top of your career.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 262,
@@ -1314,11 +954,6 @@
             "id": 263,
             "quote": "Miracles Do Not, In Fact, Break The Laws Of Nature.",
             "author": "C. S. Lewis"
-        },
-        {
-            "id": 264,
-            "quote": "There is no greater wealth than wisdom, no greater poverty than ignorance; no greater heritage than culture and no greater support than consultation.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 265,
@@ -1336,19 +971,9 @@
             "author": "Martin Luther King  Jr."
         },
         {
-            "id": 268,
-            "quote": "A developed India by 2020, or even earlier, is not a dream. It need not be a mere vision in the minds of many Indians. It is a mission we can all take up - and succeed.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 269,
             "quote": "As To The Mental Essence, We Find It In Infants Devoid Of Every Mental Form.",
             "author": "Avicenna"
-        },
-        {
-            "id": 270,
-            "quote": "Let not your love become attachment, nor your hate become destruction.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 271,
@@ -1381,11 +1006,6 @@
             "author": "Martin Luther King, Jr."
         },
         {
-            "id": 277,
-            "quote": "Solitude is better than the society of evil persons.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 278,
             "quote": "The Only Real Progress Lies In Learning To Be Wrong All Alone.",
             "author": "Albert Camus"
@@ -1401,39 +1021,14 @@
             "author": "William Shakespeare"
         },
         {
-            "id": 281,
-            "quote": "Vanity prevents improvement.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 282,
-            "quote": "Every Day, Nay Every Moment, Try To Do Some Good Deed.",
-            "author": "Abu Bakr"
-        },
-        {
-            "id": 283,
-            "quote": "Money cannot help lifting its head.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 284,
             "quote": "To Think Of Shadows Is A Serious Thing.",
             "author": "Victor Hugo"
         },
         {
-            "id": 285,
-            "quote": "If We Really Want To Love We Must Learn How To Forgive.",
-            "author": "Mother Teresa"
-        },
-        {
             "id": 286,
             "quote": "Music Expresses That Which Cannot Be Put Into Words.",
             "author": "Victor Hugo"
-        },
-        {
-            "id": 287,
-            "quote": "Love Is A Fruit In Season At All Times, And Within Reach Of Every Hand.",
-            "author": "Mother Teresa"
         },
         {
             "id": 288,
@@ -1451,11 +1046,6 @@
             "author": "Rumi"
         },
         {
-            "id": 291,
-            "quote": "If you are greeted then return the greetings more warmly. If you are favored, then repay the obligation manifold; but he who takes the initiative will always excel in merit.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 292,
             "quote": "You have to keep breaking your heart until it opens.",
             "author": "Rumi"
@@ -1469,11 +1059,6 @@
             "id": 294,
             "quote": "Never Put Off Till Tomorrow What You Can Do The Day After Tomorrow.",
             "author": "Mark Twain"
-        },
-        {
-            "id": 295,
-            "quote": "Nothing hurts a good soul and kind heart more than to live amongst people who can't understand it.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 296,
@@ -1501,31 +1086,6 @@
             "author": "Martin Luther King  Jr."
         },
         {
-            "id": 301,
-            "quote": "Confidence and hard work is the best medicine to kill the disease called failure. It will make you successful person.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 302,
-            "quote": "The bird is powered by its own life and by its motivation.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 303,
-            "quote": "Allah's Generosity is connected to gratitude, and gratitude is linked to increase in His generosity. The generosity of Allah will not stop increasing unless the gratitude of the servant ceases.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 304,
-            "quote": "Bear sorrows and calamities patiently, otherwise you will never be happy.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 305,
-            "quote": "One lesson that every nation can learn from China is to focus more on creating village-level enterprises, quality health services and educational facilities.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 306,
             "quote": "Like Slavery And Apartheid, Poverty Is Not Natural. It Is Man-Made And It Can Be Overcome And Eradicated By The Actions Of Human Beings.",
             "author": "Nelson Mandela"
@@ -1544,11 +1104,6 @@
             "id": 309,
             "quote": "I grow silent. Dear soul, you speak.",
             "author": "Rumi"
-        },
-        {
-            "id": 310,
-            "quote": "All wars signify the failure of conflict resolution mechanisms, and they need post-war rebuilding of faith, trust and confidence.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 311,
@@ -1586,11 +1141,6 @@
             "author": "Rumi"
         },
         {
-            "id": 318,
-            "quote": "India should walk on her own shadow - we must have our own development model.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 319,
             "quote": "You have escaped the cage. Your wings are stretched out. Now fly.",
             "author": "Rumi"
@@ -1606,24 +1156,9 @@
             "author": "Rumi"
         },
         {
-            "id": 322,
-            "quote": "When a man puts me a question, I judge of his intelligence.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 323,
             "quote": "There Has Never Yet Been A Man In Our History Who Led A Life Of Ease Whose Name Is Worth Remembering.",
             "author": "Theodore Roosevelt"
-        },
-        {
-            "id": 324,
-            "quote": "A teacher should have a creative mind.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 325,
-            "quote": "The criterion of action is that todays work should not be deferred till the following day.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 326,
@@ -1661,34 +1196,14 @@
             "author": "Friedrich Nietzsche"
         },
         {
-            "id": 333,
-            "quote": "The worst of our faults is our interest in other people's faults.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 334,
             "quote": "I Think It'S Nice For Women To Try To Be Sexy For Their Man.",
             "author": "Salma Hayek"
         },
         {
-            "id": 335,
-            "quote": "My impression of the American people can be summarized by a quotation from Benjamin Franklin, Those things that hurt instruct! I realized that people in this part of the world meet their problems head on. They attempt to get out of them rather than suffer them.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 336,
             "quote": "Boys, You Must Strive To Find Your Own Voice, Because The Longer You Wait To Begin The Less Likely You Are To Find It At All.",
             "author": "Robin Williams"
-        },
-        {
-            "id": 337,
-            "quote": "Be dignified, honest and truthful.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 338,
-            "quote": "Women are not a garment you wear and undress however you like. They are honored and have their rights.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 339,
@@ -1711,11 +1226,6 @@
             "author": "Martin Luther"
         },
         {
-            "id": 343,
-            "quote": "One who rushes madly after inordinate desire, runs the risk of encountering destruction and death.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 344,
             "quote": "Getting Over A Painful Experience Is Much Like Crossing Monkey Bars. You Have To Let Go At Some Point In Order To Move Forward.",
             "author": "C. S. Lewis"
@@ -1734,11 +1244,6 @@
             "id": 347,
             "quote": "If I Were Not A Physicist, I Would Probably Be A Musician. I Often Think In Music. I Live My Daydreams In Music. I See My Life In Terms Of Music.",
             "author": "Albert Einstein"
-        },
-        {
-            "id": 348,
-            "quote": "We will be remembered only if we give to our younger generation a prosperous and safe India, resulting out of economic prosperity coupled with civilizational heritage.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 349,
@@ -1761,29 +1266,9 @@
             "author": "Benjamin Franklin"
         },
         {
-            "id": 353,
-            "quote": "Spread Love Everywhere You Go. Let No One Ever Come To You Without Leaving Happier.",
-            "author": "Mother Teresa"
-        },
-        {
-            "id": 354,
-            "quote": "One of the very important characteristics of a student is to question. Let the students ask questions.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 355,
-            "quote": "To fight against the infidels is Jihad; but to fight against your evil self is greater Jihad.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 356,
             "quote": "At home I am a nice guy: but I don't want the world to know. Humble people, I've found, don't get very far.",
             "author": "Muhammad Ali"
-        },
-        {
-            "id": 357,
-            "quote": "May Allah bless the man who says less and does more.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 358,
@@ -1796,19 +1281,9 @@
             "author": "Winston Churchill"
         },
         {
-            "id": 360,
-            "quote": "Plants And Minerals Are Bound To Predestination. The Faithful Is Only Bound To The Divine Orders.",
-            "author": "Muhammad Iqbal"
-        },
-        {
             "id": 361,
             "quote": "As We Express Our Gratitude, We Must Never Forget That The Highest Appreciation Is Not To Utter Words, But To Live By Them.",
             "author": "John F. Kennedy"
-        },
-        {
-            "id": 362,
-            "quote": "Death is the easiest of all things after it, and the hardest of all things before it.",
-            "author": "Abu Bakr (R.A)"
         },
         {
             "id": 363,
@@ -1846,11 +1321,6 @@
             "author": "Rumi"
         },
         {
-            "id": 370,
-            "quote": "Allah will help him who moves in the way of Allah.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 371,
             "quote": "Do Not Be Embarrassed By Your Failures, Learn From Them And Start Again.",
             "author": "Richard Branson"
@@ -1861,19 +1331,9 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 373,
-            "quote": "He who prays five times a day is in the protection of God, and he who is protected by God cannot be harmed by anyone.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 374,
             "quote": "I Find Hope In The Darkest Of Days, And Focus In The Brightest. I Do Not Judge The Universe.",
             "author": "Dalai Lama"
-        },
-        {
-            "id": 375,
-            "quote": "The wisest among you is he whose sustenance is the fear of Allah.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 376,
@@ -1906,16 +1366,6 @@
             "author": "Rumi"
         },
         {
-            "id": 382,
-            "quote": "Let me alone, and go in search of someone else.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 383,
-            "quote": "A True friend is one who sees a fault, gives you advice and who defends you in your absence.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 384,
             "quote": "You Can Tell Whether A Man Is Clever By His Answers. You Can Tell Whether A Man Is Wise By His Questions.",
             "author": "Naguib Mahfouz"
@@ -1926,34 +1376,14 @@
             "author": "Billie Jean King"
         },
         {
-            "id": 386,
-            "quote": "The best deed of a great man is to forgive and forget.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 387,
             "quote": "One May Sometimes Tell A Lie, But The Grimace That Accompanies It Tells The Truth.",
             "author": "Friedrich Nietzsche"
         },
         {
-            "id": 388,
-            "quote": "Do not hate what you do not know, for the greater part of knowledge consists of what you do not know.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 389,
-            "quote": "Love Begins At Home, And It Is Not How Much We Do... But How Much Love We Put In That Action.",
-            "author": "Mother Teresa"
-        },
-        {
             "id": 390,
             "quote": "My Religion Is Very Simple. My Religion Is Kindness.",
             "author": "Dalai Lama"
-        },
-        {
-            "id": 391,
-            "quote": "There are forces in life working for you and against you. One must distinguish the beneficial forces from the malevolent ones and choose correctly between them.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 392,
@@ -1964,11 +1394,6 @@
             "id": 393,
             "quote": "All My Life Through, The New Sights Of Nature Made Me Rejoice Like A Child.",
             "author": "Marie Curie"
-        },
-        {
-            "id": 394,
-            "quote": "He who indulges in falsehood will find the paths of paradise shut to him.",
-            "author": "Abu Bakr (R.A)"
         },
         {
             "id": 395,
@@ -1994,16 +1419,6 @@
             "id": 399,
             "quote": "The Object Of The Superior Man Is Truth.",
             "author": "Confucius"
-        },
-        {
-            "id": 400,
-            "quote": "Live amongst people in such a manner that if you die they weep over you and if you are alive they crave for your company.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 401,
-            "quote": "Pride In The Case Of A Rich Man Is Bad, But Pride In The Case Of A Poor Man Is Worse.",
-            "author": "Abu Bakr"
         },
         {
             "id": 402,
@@ -2034,11 +1449,6 @@
             "id": 407,
             "quote": "Purify your eyes, and see the pure world. Your life will fill with radiant forms.",
             "author": "Rumi"
-        },
-        {
-            "id": 408,
-            "quote": "Associating with the wise and the knowledgeable people adds to the prestige of a person.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 409,
@@ -2076,19 +1486,9 @@
             "author": "Victor Hugo"
         },
         {
-            "id": 416,
-            "quote": "It is a matter of shame that in the morning the birds should be awake earlier than you.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 417,
             "quote": "What Doesn'T Kill Us Makes Us Stronger.",
             "author": "Friedrich Nietzsche"
-        },
-        {
-            "id": 418,
-            "quote": "The weakest man is the one who is able to correct his moral defects, but doesn't take action.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 419,
@@ -2096,24 +1496,9 @@
             "author": "Salman Rushdie"
         },
         {
-            "id": 420,
-            "quote": "The highest person is he who is of most use to humankind.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 421,
             "quote": "Common Sense Is The Collection Of Prejudices Acquired By Age Eighteen.",
             "author": "Albert Einstein"
-        },
-        {
-            "id": 422,
-            "quote": "Do not let your difficulties fill you with anxiety, after all it is only in the darkest nights that stars shine more brightly.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 423,
-            "quote": "Preserve the sayings of those people who are indifferent to the world. They say only that what Allah wishes them to say.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 424,
@@ -2136,11 +1521,6 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 428,
-            "quote": "I fear the day when the Kuffar are proud of their falsehood, and the Muslims are shy of their faith.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 429,
             "quote": "It Is From Books That Wise People Derive Consolation In The Troubles Of Life.",
             "author": "Victor Hugo"
@@ -2149,11 +1529,6 @@
             "id": 430,
             "quote": "Take Things As They Are. Punch When You Have To Punch. Kick When You Have To Kick.",
             "author": "Bruce Lee"
-        },
-        {
-            "id": 431,
-            "quote": "Do not overeat; that invites disease.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 432,
@@ -2216,19 +1591,9 @@
             "author": "C. S. Lewis"
         },
         {
-            "id": 444,
-            "quote": "Don't forget your own self while preaching to others.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 445,
             "quote": "If That'S There, I Believe That Technology Will Probably Step Up To Their Part Of It.",
             "author": "Neil Armstrong"
-        },
-        {
-            "id": 446,
-            "quote": "Creativity is the key to success in the future, and primary education is where teachers can bring creativity in children at that level.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 447,
@@ -2246,16 +1611,6 @@
             "author": "Albert Einstein"
         },
         {
-            "id": 450,
-            "quote": "He who does not live in the way of his beliefs starts to believe in the way he lives.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 451,
-            "quote": "We should not give up and we should not allow the problem to defeat us.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 452,
             "quote": "Failure Is Not The Opposite Of Success; It'S Part Of Success.",
             "author": "Arianna Huffington"
@@ -2271,11 +1626,6 @@
             "author": "Warren Buffett"
         },
         {
-            "id": 455,
-            "quote": "Do not be too hard, lest you be broken; do not be too soft, lest you be squeezed.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 456,
             "quote": "Champions come and go, but to be legendary you got to have heart, more heart than the next man, more than anyone in the world.",
             "author": "Muhammad Ali"
@@ -2286,11 +1636,6 @@
             "author": "Albert Camus"
         },
         {
-            "id": 458,
-            "quote": "What is politics? Political system is equal to development politics plus political politics.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 459,
             "quote": "I don't count my situps. I only start counting once it starts hurting.",
             "author": "Muhammad Ali"
@@ -2299,21 +1644,6 @@
             "id": 460,
             "quote": "How could they say that my religion, Islam was a 'race hate' religion after all the plunder and enslavement and domination of my people by white Christians in the name of white supremacy?",
             "author": "Muhammad Ali"
-        },
-        {
-            "id": 461,
-            "quote": "To make one good action succeed another, is the perfection of goodness.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 462,
-            "quote": "Loving one another is half of wisdom.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 463,
-            "quote": "There is no harm in patience, and no profit in lamentation. Death is easier to bear (than) that which precedes it, and more severe than that which comes after it. Remember the death of the Apostle of God, and your sorrow will be lessened.",
-            "author": "Abu Bakr (R.A)"
         },
         {
             "id": 464,
@@ -2341,16 +1671,6 @@
             "author": "Confucius"
         },
         {
-            "id": 469,
-            "quote": "The Earth is the most powerful and energetic planet.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 470,
-            "quote": "Never explain yourself to anyone, because the one who likes you would not need it, and the one dislikes you wouldn't believe it.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 471,
             "quote": "People Say Satire Is Dead. It'S Not Dead; It'S Alive And Living In The White House.",
             "author": "Robin Williams"
@@ -2366,34 +1686,14 @@
             "author": "Albert Einstein"
         },
         {
-            "id": 474,
-            "quote": "He who busies himself with things other than improvement of his own self becomes perplexed in darkness and entangled in ruin. His evil spirits immerse him deep in vices and make his bad actions seem handsome.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 475,
             "quote": "Impossible is nothing.",
             "author": "Muhammad Ali"
         },
         {
-            "id": 476,
-            "quote": "In the matter of justice, all should be equal in your eyes.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 477,
             "quote": "A Well-Spent Day Brings Happy Sleep.",
             "author": "Leonardo Da Vinci"
-        },
-        {
-            "id": 478,
-            "quote": "Don't engage your heart in grief over the past or you wont be ready for what is coming.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 479,
-            "quote": "Two things cause people to be destroyed: fear of poverty and seeking superiority through pride.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 480,
@@ -2406,11 +1706,6 @@
             "author": "Bill Gates"
         },
         {
-            "id": 482,
-            "quote": "Thinking should become your capital asset, no matter whatever ups and downs you come across in your life.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 483,
             "quote": "I'm the best. I just haven't played yet.",
             "author": "Muhammad Ali"
@@ -2419,11 +1714,6 @@
             "id": 484,
             "quote": "Your worst enemy is hiding within yourself, and that enemy is your nafs or false ego.",
             "author": "Rumi"
-        },
-        {
-            "id": 485,
-            "quote": "Do not put off today's work for tomorrow.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 486,
@@ -2446,21 +1736,6 @@
             "author": "Rumi"
         },
         {
-            "id": 490,
-            "quote": "The one who has no control over his desires has no control over his mind.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 491,
-            "quote": "A moment of patience in a moment of anger prevents a thousand moments of regret.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 492,
-            "quote": "Man comes from a drop of semen and leaves as a piece of dust. He doesn't know when he came and he doesn't know when he's leaving, yet he walks on the earth thinking he knows everything.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 493,
             "quote": "I searched for God and found only myself. I searched for myself and found only God.",
             "author": "Rumi"
@@ -2476,24 +1751,9 @@
             "author": "Rumi"
         },
         {
-            "id": 496,
-            "quote": "Let Me Alone, And Go In Search Of Someone Else.",
-            "author": "Ali Ibn Abi Talib"
-        },
-        {
-            "id": 497,
-            "quote": "Dislike in yourself what you dislike in others.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 498,
             "quote": "People Ask The Difference Between A Leader And A Boss. The Leader Leads, And The Boss Drives.",
             "author": "Theodore Roosevelt"
-        },
-        {
-            "id": 499,
-            "quote": "The wisest man is he who can account for his actions.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 500,
@@ -2506,39 +1766,14 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 502,
-            "quote": "Have an earnestness for death and you will have life.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 503,
-            "quote": "He who is not impressed by sound advice, lacks faith.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 504,
-            "quote": "A man's worth depends upon the nobility of his aspirations.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 505,
             "quote": "Hesitation Increases In Relation To Risk In Equal Proportion To Age.",
             "author": "Ernest Hemingway"
         },
         {
-            "id": 506,
-            "quote": "He who trusts the world, the world betrays him.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 507,
             "quote": "Let silence take you to the core of life.",
             "author": "Rumi"
-        },
-        {
-            "id": 508,
-            "quote": "Often your utterances and expressions of your face leak out the secrets of your hidden thoughts.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 509,
@@ -2549,11 +1784,6 @@
             "id": 510,
             "quote": "There is one way of breathing that is shameful and constricted. Then, there's another way: a breath of love that takes you all the way to infinity.",
             "author": "Rumi"
-        },
-        {
-            "id": 511,
-            "quote": "You cannot change your future, but you can change your habits, and surely your habits will change your future.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 512,
@@ -2581,11 +1811,6 @@
             "author": "Ayn Rand"
         },
         {
-            "id": 517,
-            "quote": "Dream, Dream Dream Dreams transform into thoughts And thoughts result in action.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 518,
             "quote": "Be motivated like the falcon, hunt gloriously. Be magnificent as the leopard, fight to win. Spend less time with nightingales and peacocks. One is all talk, the other only color.",
             "author": "Rumi"
@@ -2611,11 +1836,6 @@
             "author": "Mark Twain"
         },
         {
-            "id": 523,
-            "quote": "Trust is that there should be no difference between what you do and say and what you think.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 524,
             "quote": "Try something different. Surrender.",
             "author": "Rumi"
@@ -2636,16 +1856,6 @@
             "author": "Maya Angelou"
         },
         {
-            "id": 528,
-            "quote": "I have been given the authority over you, and I am not the best of you. If I do well, help me; and if I do wrong, set me right. Sincere regard for truth.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 529,
-            "quote": "Follow the way of life, which the Holy Prophet has shown you, for verily that is the right path.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 530,
             "quote": "There is hope after despair and many suns after darkness.",
             "author": "Rumi"
@@ -2654,11 +1864,6 @@
             "id": 531,
             "quote": "It'S Just A Job. Grass Grows, Birds Fly, Waves Pound The Sand. I Beat People Up.",
             "author": "Muhammad Ali"
-        },
-        {
-            "id": 532,
-            "quote": "He who is greedy is disgraced; he who discloses his hardship will always be humiliated; he who has no control over his tongue will often have to face discomfort.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 533,
@@ -2671,29 +1876,14 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 535,
-            "quote": "Dream is not that which you see while sleeping it is something that does not let you sleep.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 536,
             "quote": "The Lack Of Money Is The Root Of All Evil.",
             "author": "Mark Twain"
         },
         {
-            "id": 537,
-            "quote": "Sit with those who constantly repent, for they have the softest hearts.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 538,
             "quote": "A Successful Man Is One Who Can Lay A Firm Foundation With The Bricks Others Have Thrown At Him.",
             "author": "David Brinkley"
-        },
-        {
-            "id": 539,
-            "quote": "A girl is a good deed and a boy is a bounty. Good deeds are rewarded while people are held accountable for bounties.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 540,
@@ -2719,16 +1909,6 @@
             "id": 544,
             "quote": "Luxury Must Be Comfortable, Otherwise It Is Not Luxury.",
             "author": "Coco Chanel"
-        },
-        {
-            "id": 545,
-            "quote": "O World, try to deceive someone else. Are you trying to tempt me or attract me? No way! I divorce you irrevocably. Your time is short and you are insignificant. Alas! The provision is little, the journey is long and the way is lonely.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 546,
-            "quote": "There are so many highly esteemed ones who became miserable and humiliated just because of their bad temper and morals; and humble people who have attained eminence and the highest honors because of good temper and morals.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 547,
@@ -2761,11 +1941,6 @@
             "author": "Abraham Lincoln"
         },
         {
-            "id": 553,
-            "quote": "Every nation has to follow a certain policy: Commercial, trade, various other types of policies.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 554,
             "quote": "This Is One Small Step For A Man, One Giant Leap For Mankind.",
             "author": "Neil Armstrong"
@@ -2781,54 +1956,9 @@
             "author": "Mark Twain"
         },
         {
-            "id": 557,
-            "quote": "Never Worry About Numbers. Help One Person At A Time And Always Start With The Person Nearest You.",
-            "author": "Mother Teresa"
-        },
-        {
-            "id": 558,
-            "quote": "The government, whether state or central, is elected. That means we have a responsibility to elect the right kind of leaders.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 559,
-            "quote": "Lead such a life, that, when you die, the people may mourn you, and while you are alive they long for your company.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 560,
-            "quote": "Patience is the healthiest ingredient of our life.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 561,
-            "quote": "God, our Creator, has stored within our minds and personalities, great potential strength and ability. Prayer helps us tap and develop these powers.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 562,
             "quote": "You Can Never Solve A Problem On The Level On Which It Was Created.",
             "author": "Albert Einstein"
-        },
-        {
-            "id": 563,
-            "quote": "A man is hid under his tongue.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 564,
-            "quote": "The one from among the Muslims who recites the Qur'an but in the end finds his way to hell, is considered to be among those that have taken the word of Allah in jest.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 565,
-            "quote": "Do not put off today's work until tomorrow, lest work accumulate and you achieve nothing.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 566,
-            "quote": "We should remember that there are nations which meet more than 30 to 60% of their power requirements through the nuclear power system.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 567,
@@ -2841,21 +1971,6 @@
             "author": "Rumi"
         },
         {
-            "id": 569,
-            "quote": "If a person has ten habits out of which nine are good and one bad, that bad one will destroy the good ones.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 570,
-            "quote": "There is no rest for the person who has envy, and there is no love for the person who has bad manners.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 571,
-            "quote": "Vision Without Power Does Bring Moral Elevation But Cannot Give A Lasting Culture.",
-            "author": "Muhammad Iqbal"
-        },
-        {
             "id": 572,
             "quote": "Dance, when you're broken open. Dance, if you've torn the bandage off. Dance in the middle of the fighting. Dance in your blood. Dance when you're perfectly free.",
             "author": "Rumi"
@@ -2864,11 +1979,6 @@
             "id": 573,
             "quote": "Life Doesn'T Run Away From Nobody. Life Runs At People.",
             "author": "Joe Frazier"
-        },
-        {
-            "id": 574,
-            "quote": "One best book is equal to hundred good friends but one good friend is equal to a library.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 575,
@@ -2906,24 +2016,9 @@
             "author": "Albert Einstein"
         },
         {
-            "id": 582,
-            "quote": "It is better to listen to a wise enemy than to seek counsel from a foolish friend.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 583,
             "quote": "There Is No More Lovely, Friendly And Charming Relationship, Communion Or Company Than A Good Marriage.",
             "author": "Martin Luther"
-        },
-        {
-            "id": 584,
-            "quote": "If your ruler is just, then praise God; but if he is unjust, pray to God to rid you of him.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 585,
-            "quote": "He Who Avoids Complaint Invites Happiness.",
-            "author": "Abu Bakr"
         },
         {
             "id": 586,
@@ -2946,11 +2041,6 @@
             "author": "Winston Churchill"
         },
         {
-            "id": 590,
-            "quote": "A man may be as straight as an arrow, but even then he will have some critics.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 591,
             "quote": "The desire to know your own soul will end all other desires.",
             "author": "Rumi"
@@ -2964,16 +2054,6 @@
             "id": 593,
             "quote": "Others may know pleasure, but pleasure is not happiness. It has no more importance than a shadow following a man.",
             "author": "Muhammad Ali"
-        },
-        {
-            "id": 594,
-            "quote": "When you do not know of a thing say so plainly.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 595,
-            "quote": "If you are born with fame, it is an accident. If you die with fame, it is an achievement.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 596,
@@ -2996,11 +2076,6 @@
             "author": "Thomas A. Edison"
         },
         {
-            "id": 600,
-            "quote": "Difficulties in your life do not come to destroy you, but to help you realize your hidden potential and power, let difficulties know that you too are difficult.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 601,
             "quote": "Live everyday as if it were your last because someday you're going to be right.",
             "author": "Muhammad Ali"
@@ -3016,24 +2091,9 @@
             "author": "John F. Kennedy"
         },
         {
-            "id": 604,
-            "quote": "When knowledge is limited - it leads to folly... When knowledge exceeds a certain limit, it leads to exploitation.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 605,
-            "quote": "The vision of the eye is limited; the vision of the heart transcends all barriers of time and space.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 606,
             "quote": "I Don'T Know The Key To Success, But The Key To Failure Is Trying To Please Everybody.",
             "author": "Bill Cosby"
-        },
-        {
-            "id": 607,
-            "quote": "Praise Allah, for by praise His blessings multiply.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 608,
@@ -3051,19 +2111,9 @@
             "author": "Omar Khayyam"
         },
         {
-            "id": 611,
-            "quote": "For me, there are two types of people: the young and the experienced.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 612,
             "quote": "Open your Eyes, for this World is only a Dream.",
             "author": "Rumi"
-        },
-        {
-            "id": 613,
-            "quote": "Success is when your signature becomes an autograph.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 614,
@@ -3081,11 +2131,6 @@
             "author": "Benjamin Franklin"
         },
         {
-            "id": 617,
-            "quote": "Of all the follies the greatest is to love the world.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 618,
             "quote": "Dance, and make joyous the love around you. Dance, and your veils which hide the Light shall swirl in a heap at your feet.",
             "author": "Rumi"
@@ -3101,19 +2146,9 @@
             "author": "Jim Courier"
         },
         {
-            "id": 621,
-            "quote": "Have An Earnestness For Death And You Will Have Life.",
-            "author": "Abu Bakr"
-        },
-        {
             "id": 622,
             "quote": "Avoid Popularity If You Would Have Peace.",
             "author": "Abraham Lincoln"
-        },
-        {
-            "id": 623,
-            "quote": "Acquire knowledge, and learn tranquility and dignity.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 624,
@@ -3146,11 +2181,6 @@
             "author": "Albert Einstein"
         },
         {
-            "id": 630,
-            "quote": "Pride in the case of a rich man is bad, but pride in the case of a poor man is worse.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 631,
             "quote": "I say get an education. Become an electrician, a mechanic, a doctor, a lawyer, anything but a fighter. In this trade, it's the managers that make the money and last the longest.",
             "author": "Muhammad Ali"
@@ -3159,26 +2189,6 @@
             "id": 632,
             "quote": "Raise your words, not voice. It is rain that grows flowers, not thunder.",
             "author": "Rumi"
-        },
-        {
-            "id": 633,
-            "quote": "For those who practice tyranny and deprive others of their rights, I will be harsh and stern, but for those who follow the law, I will be most soft and tender.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 634,
-            "quote": "Without your involvement you can't succeed. With your involvement you can't fail.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 635,
-            "quote": "Do not feel lonely on the road of righteousness Because of the fewness of the walkers on it.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 636,
-            "quote": "A hopeless man sees difficulties in every chance, but a hopeful person sees chances in every difficulty.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 637,
@@ -3246,11 +2256,6 @@
             "author": "Mark Twain"
         },
         {
-            "id": 650,
-            "quote": "The death of a thousand worshipers is easier to bear than the death of a scholar who has knowledge of what Allah has permitted and forbidden.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 651,
             "quote": "A Place For Everything, Everything In Its Place.",
             "author": "Benjamin Franklin"
@@ -3291,11 +2296,6 @@
             "author": "Henry Ford"
         },
         {
-            "id": 659,
-            "quote": "May Allah have mercy on him who sends me my faults as a present.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 660,
             "quote": "Whoever knocks persistently, ends by entering.",
             "author": "Muhammad Ali"
@@ -3316,21 +2316,6 @@
             "author": "Ernest Hemingway"
         },
         {
-            "id": 664,
-            "quote": "People's hearts are like wild animals. They attach their selves to those that love and train them.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 665,
-            "quote": "Know thyself, and thou shalt know God.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 666,
-            "quote": "Death is teacher enough, true faith is wealth enough, and worship is action enough.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 667,
             "quote": "Monsters Are Real, And Ghosts Are Real Too. They Live Inside Us, And Sometimes, They Win.",
             "author": "Stephen King"
@@ -3346,19 +2331,9 @@
             "author": "Benjamin Franklin"
         },
         {
-            "id": 670,
-            "quote": "To speak less is wisdom, to eat less is healthy, and to mingle less with te people is safe and serene.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 671,
             "quote": "The truth was a mirror in the hands of God. It fell, and broke into pieces. Everybody took a piece of it, and they looked at it and thought they had the truth.",
             "author": "Rumi"
-        },
-        {
-            "id": 672,
-            "quote": "If you expect the blessings of God, be kind to His people.",
-            "author": "Abu Bakr (R.A)"
         },
         {
             "id": 673,
@@ -3374,11 +2349,6 @@
             "id": 675,
             "quote": "There's nothing wrong with getting knocked down, as long as you get right back up.",
             "author": "Muhammad Ali"
-        },
-        {
-            "id": 676,
-            "quote": "Do not use the sharpness of your speech on your mother who taught you how to speak.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 677,
@@ -3416,11 +2386,6 @@
             "author": "Friedrich Nietzsche"
         },
         {
-            "id": 684,
-            "quote": "Thy lot or portion of life is seeking after thee; therefore be at rest from seeking after it.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 685,
             "quote": "Sell your cleverness and buy bewilderment.",
             "author": "Rumi"
@@ -3439,11 +2404,6 @@
             "id": 688,
             "quote": "Kindness Is The Language Which The Deaf Can Hear And The Blind Can See.",
             "author": "Mark Twain"
-        },
-        {
-            "id": 689,
-            "quote": "The Hunger For Love Is Much More Difficult To Remove Than The Hunger For Bread.",
-            "author": "Mother Teresa"
         },
         {
             "id": 690,
@@ -3466,21 +2426,6 @@
             "author": "Rumi"
         },
         {
-            "id": 694,
-            "quote": "Be Happy In The Moment, That'S Enough. Each Moment Is All We Need, Not More.",
-            "author": "Mother Teresa"
-        },
-        {
-            "id": 695,
-            "quote": "Islam will be destroyed by the mistakes of scholars, the arguments of the hypocrites who misinterpret the Qur'an to support their views and misleading rulers.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 696,
-            "quote": "Knowledge is the life of the mind.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 697,
             "quote": "Wisdom is like the rain. Its source is limitless, but it comes down according to the season.",
             "author": "Rumi"
@@ -3494,11 +2439,6 @@
             "id": 699,
             "quote": "If You Don'T Like Something, Change It. If You Can'T Change It, Change Your Attitude.",
             "author": "Maya Angelou"
-        },
-        {
-            "id": 700,
-            "quote": "Do not be misled by hearing of anyone's reputation.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 701,
@@ -3516,34 +2456,9 @@
             "author": "Ernest Hemingway"
         },
         {
-            "id": 704,
-            "quote": "Not every man with a heart is understanding, nor every man with an ear a listener, and nor every man with eyes able to see.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 705,
             "quote": "Allah is the Greatest. I'm just the greatest boxer.",
             "author": "Muhammad Ali"
-        },
-        {
-            "id": 706,
-            "quote": "The disease of the heart is worse than the disease of the body.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 707,
-            "quote": "We must think and act like a nation of a billion people and not like that of a million people. Dream, dream, dream!",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 708,
-            "quote": "When mother is happy, family is happy. When family is happy, nation is happy.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 709,
-            "quote": "The Miracle Is Not That We Do This Work, But That We Are Happy To Do It.",
-            "author": "Mother Teresa"
         },
         {
             "id": 710,
@@ -3566,16 +2481,6 @@
             "author": "Marie Curie"
         },
         {
-            "id": 714,
-            "quote": "Do not look down upon any Muslim, for even the most inferior believer is great in the eyes of God.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 715,
-            "quote": "Be good to others, that will protect you against evil.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 716,
             "quote": "I am an ordinary man who worked hard to develop the talent I was given.",
             "author": "Muhammad Ali"
@@ -3584,11 +2489,6 @@
             "id": 717,
             "quote": "Inside you there's an artist you don't know about.",
             "author": "Rumi"
-        },
-        {
-            "id": 718,
-            "quote": "All birds find shelter during a rain. But eagle avoids rain by flying above the clouds. Problems are common, but attitude makes the difference.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 719,
@@ -3606,11 +2506,6 @@
             "author": "Zig Ziglar"
         },
         {
-            "id": 722,
-            "quote": "English is necessary as at present original works of science are in English. I believe that in two decades times original works of science will start coming out in our languages. Then we can move over like the Japanese.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 723,
             "quote": "The Right Word May Be Effective, But No Word Was Ever As Effective As A Rightly Timed Pause.",
             "author": "Mark Twain"
@@ -3624,11 +2519,6 @@
             "id": 725,
             "quote": "I Cannot Discover That Anyone Knows Enough To Say Definitely What Is And What Is Not Possible.",
             "author": "Henry Ford"
-        },
-        {
-            "id": 726,
-            "quote": "Look at the sky. We are not alone. The whole universe is friendly to us and conspires only to give the best to those who dream and work.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 727,
@@ -3646,11 +2536,6 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 730,
-            "quote": "In this world, fear has no place. Only strength respects strength.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 731,
             "quote": "Spirituality is recognizing the divine light that is within us all. It doesn't belong to any particular religion; it belongs to everyone.",
             "author": "Muhammad Ali"
@@ -3661,16 +2546,6 @@
             "author": "Winston Churchill"
         },
         {
-            "id": 733,
-            "quote": "No one has ever suffered from his people as I have.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 734,
-            "quote": "Fear the sins that you commit in secret, because the Witness of those sins is the Judge Himself!",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 735,
             "quote": "Life is balance of holding on and letting go.",
             "author": "Rumi"
@@ -3679,11 +2554,6 @@
             "id": 736,
             "quote": "Only A Philosophy Of Eternity, In The World Today, Could Justify Non-Violence.",
             "author": "Albert Camus"
-        },
-        {
-            "id": 737,
-            "quote": "The relation of patience to iman is like the relation of the head to the body. If the head is chopped off, the body becomes useless. Then he raised his voice and said: Certainly, the one who has no patience has no iman, and patience is like a riding-beast that nevers gets tired.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 738,
@@ -3711,16 +2581,6 @@
             "author": "Winston Churchill"
         },
         {
-            "id": 743,
-            "quote": "When learning is purposeful, creativity blossoms. When creativity blossoms, thinking emanates. When thinking emanates, knowledge is fully lit. When knowledge is lit, economy flourishes.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 744,
-            "quote": "If you want to shine like the sun, first burn like the sun.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 745,
             "quote": "You were born with wings, why prefer to crawl through life?",
             "author": "Rumi"
@@ -3736,19 +2596,9 @@
             "author": "Rumi"
         },
         {
-            "id": 748,
-            "quote": "What is the secret of success? Right decisions. How do you make right decisions? Experience. How do you gain experience? Wrong decisions.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 749,
             "quote": "In All Things Of Nature There Is Something Of The Marvelous.",
             "author": "Aristotle"
-        },
-        {
-            "id": 750,
-            "quote": "What regresses, never progresses.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 751,
@@ -3761,34 +2611,14 @@
             "author": "Friedrich Nietzsche"
         },
         {
-            "id": 753,
-            "quote": "If you want to control other people, first control yourself.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 754,
-            "quote": "Patience is of two kinds: patience over what pains you, and patience against what you covet.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 755,
             "quote": "A Person Who Won'T Read Has No Advantage Over One Who Can'T Read.",
             "author": "Mark Twain"
         },
         {
-            "id": 756,
-            "quote": "Muslims should live like brothers.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 757,
             "quote": "I Will Carry On Writing, To Be Sure. But I Don'T Know If I Would Want To Publish Again After Harry Potter.",
             "author": "J. K. Rowling"
-        },
-        {
-            "id": 758,
-            "quote": "Do not be misled by appearances for these are apt to be deceptive.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 759,
@@ -3821,11 +2651,6 @@
             "author": "Carl Sagan"
         },
         {
-            "id": 765,
-            "quote": "A man's behavior is the index of the man, and his discourse is the index of his understanding.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 766,
             "quote": "Frazier's got two chances. Slim, and none. And Slim just left town.",
             "author": "Muhammad Ali"
@@ -3834,11 +2659,6 @@
             "id": 767,
             "quote": "Out beyond ideas of wrongdoing and rightdoing there is a field. I'll meet you there. When the soul lies down in that grass the world is too full to talk about.",
             "author": "Rumi"
-        },
-        {
-            "id": 768,
-            "quote": "Seek knowledge and teach it to people. Learn dignity and tranquillity, and be humble towards those from whom you learn knowledge and be humble towards those to whom you teach it, and do not be tyrannical scholar otherwise your knowledge cannot be established because of your tyranny.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 769,
@@ -3861,16 +2681,6 @@
             "author": "Rumi"
         },
         {
-            "id": 773,
-            "quote": "Get used to a rough life, for luxury does not last forever.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 774,
-            "quote": "You have to dream before your dreams can come true.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 775,
             "quote": "We Must Be Global Christians With A Global Vision Because Our God Is A Global God.",
             "author": "John Stott"
@@ -3889,11 +2699,6 @@
             "id": 778,
             "quote": "Be Careless In Your Dress If You Will, But Keep A Tidy Soul.",
             "author": "Mark Twain"
-        },
-        {
-            "id": 779,
-            "quote": "Intentions count in your actions.",
-            "author": "Abu Bakr (R.A)"
         },
         {
             "id": 780,
@@ -3921,29 +2726,14 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 785,
-            "quote": "Cursed Is The Man Who Dies, But The Evil Done By Him Survives.",
-            "author": "Abu Bakr"
-        },
-        {
             "id": 786,
             "quote": "The Trouble With Censors Is That They Worry If A Girl Has Cleavage. They Ought To Worry If She Hasn'T Any.",
             "author": "Marilyn Monroe"
         },
         {
-            "id": 787,
-            "quote": "God blesses him who helps his brother.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 788,
             "quote": "Wherever You Go, Go With All Your Heart.",
             "author": "Confucius"
-        },
-        {
-            "id": 789,
-            "quote": "He who does now know evil will fall into it.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 790,
@@ -3956,29 +2746,14 @@
             "author": "Benjamin Franklin"
         },
         {
-            "id": 792,
-            "quote": "Adversity always presents opportunities for introspection.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 793,
             "quote": "Achieving Life Is Not The Equivalent Of Avoiding Death.",
             "author": "Ayn Rand"
         },
         {
-            "id": 794,
-            "quote": "Do not be deceived by a man's eloquence; rather whoever fulfils trusts and refrains from impugning people's honour is a real man.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 795,
             "quote": "What counts in the ring is what you can do after you're exhausted. The same is true of life.",
             "author": "Muhammad Ali"
-        },
-        {
-            "id": 796,
-            "quote": "No wealth like education and no poverty like ignorance.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 797,
@@ -4006,11 +2781,6 @@
             "author": "Rumi"
         },
         {
-            "id": 802,
-            "quote": "Divine Life Is In Touch With The Whole Universe On The Analogy Of The Soul'S Contact With The Body.",
-            "author": "Muhammed Iqbal"
-        },
-        {
             "id": 803,
             "quote": "I believe in the religion of Islam. I believe in Allah and peace.",
             "author": "Muhammad Ali"
@@ -4024,11 +2794,6 @@
             "id": 805,
             "quote": "Many A Man Thinks He Is Buying Pleasure, When He Is Really Selling Himself To It.",
             "author": "Benjamin Franklin"
-        },
-        {
-            "id": 806,
-            "quote": "The sin which makes you sad and repentant is more liked by Allah than the good deed which turns you arrogant.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 807,
@@ -4056,19 +2821,9 @@
             "author": "Socrates"
         },
         {
-            "id": 812,
-            "quote": "True friends are a single soul divided between different bodies.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 813,
             "quote": "Don’T Let The Noise Of Others’ Opinions Drown Out Your Own Inner Voice.",
             "author": "Steve Jobs"
-        },
-        {
-            "id": 814,
-            "quote": "Do we not realize that self respect comes with self reliance?",
-            "author": "Abdul Kalam"
         },
         {
             "id": 815,
@@ -4091,24 +2846,9 @@
             "author": "Rumi"
         },
         {
-            "id": 819,
-            "quote": "Great dreams of great dreamers are always transcended.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 820,
             "quote": "Failure Is A Detour, Not A Dead-End Street.",
             "author": "Zig Ziglar"
-        },
-        {
-            "id": 821,
-            "quote": "Hide the good you do, and make known the good done to you.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 822,
-            "quote": "Body is purified by water. Ego by tears. Intellect is purified by knowledge. And soul is purified with love.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 823,
@@ -4119,11 +2859,6 @@
             "id": 824,
             "quote": "A Goal Properly Set Is Halfway Reached.",
             "author": "Zig Ziglar"
-        },
-        {
-            "id": 825,
-            "quote": "Authority, power, and wealth do not change a man; they only reveal him.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 826,
@@ -4161,16 +2896,6 @@
             "author": "C. S. Lewis"
         },
         {
-            "id": 833,
-            "quote": "Spread Love Everywhere You Go. Let No One Ever Come To You Without Leaving Happier.",
-            "author": "Mother Teresa"
-        },
-        {
-            "id": 834,
-            "quote": "Do not follow vain desires; for verily he who prospers is preserved from lust, greed and anger.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 835,
             "quote": "What Would Be Ugly In A Garden Constitutes Beauty In A Mountain.",
             "author": "Victor Hugo"
@@ -4179,11 +2904,6 @@
             "id": 836,
             "quote": "Turn Your Wounds Into Wisdom.",
             "author": "Oprah Winfrey"
-        },
-        {
-            "id": 837,
-            "quote": "Either you are just or unjust. If you are just, then you will not keep aloof from the people, but will listen to them and meet their requirements. But if you are unjust, the people themselves will keep away from you.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 838,
@@ -4251,11 +2971,6 @@
             "author": "Rumi"
         },
         {
-            "id": 851,
-            "quote": "Nations consist of people. And with their effort, a nation can accomplish all it could ever want.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 852,
             "quote": "Reality Is Merely An Illusion, Albeit A Very Persistent One.",
             "author": "Albert Einstein"
@@ -4281,24 +2996,9 @@
             "author": "Rumi"
         },
         {
-            "id": 857,
-            "quote": "Become Dust - And They Will Throw Thee In The Air; Become Stone - And They Will Throw Thee On Glass.",
-            "author": "Muhammad Iqbal"
-        },
-        {
             "id": 858,
             "quote": "To Hell With Circumstances; I Create Opportunities.",
             "author": "Bruce Lee"
-        },
-        {
-            "id": 859,
-            "quote": "My worthiness is all my doubt His Merit- all my fear- Contrasting which my quality Does however appear.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 860,
-            "quote": "People are of two types, they are either your brothers in faith or your equals in humanity.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 861,
@@ -4321,19 +3021,9 @@
             "author": "Walt Disney"
         },
         {
-            "id": 865,
-            "quote": "Allah Will Help Him Who Moves In The Way Of Allah.",
-            "author": "Abu Bakr"
-        },
-        {
             "id": 866,
             "quote": "Hating people because of their color is wrong. And it doesn't matter which color does the hating. It's just plain wrong.",
             "author": "Muhammad Ali"
-        },
-        {
-            "id": 867,
-            "quote": "Asceticism is not that you should not own anything, but that nothing should own you.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 868,
@@ -4356,16 +3046,6 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 872,
-            "quote": "Hold yourselves accountable before you are held accountable.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 873,
-            "quote": "Do Not Be Too Hard, Lest You Be Broken; Do Not Be Too Soft, Lest You Be Squeezed.",
-            "author": "Ali Ibn Abi Talib"
-        },
-        {
             "id": 874,
             "quote": "I Have Tried Lately To Read Shakespeare, And Found It So Intolerably Dull That It Nauseated Me.",
             "author": "Charles Darwin"
@@ -4376,19 +3056,9 @@
             "author": "Anne Frank"
         },
         {
-            "id": 876,
-            "quote": "Perfecting one's intellect causes one to speak less, and those words spoken will be adorned with wisdom.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 877,
             "quote": "For Where God Built A Church, There The Devil Would Also Build A Chapel.",
             "author": "Martin Luther"
-        },
-        {
-            "id": 878,
-            "quote": "The true believer is rewarded in every thing, even in affliction.",
-            "author": "Abu Bakr (R.A)"
         },
         {
             "id": 879,
@@ -4446,11 +3116,6 @@
             "author": "John F. Kennedy"
         },
         {
-            "id": 890,
-            "quote": "Youth is not restored by the dyeing of your hair.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 891,
             "quote": "The Two Hardest Tests On The Spiritual Road Are The Patience To Wait For The Right Moment And The Courage Not To Be Disappointed With What We Encounter.",
             "author": "Paulo Coelho"
@@ -4464,11 +3129,6 @@
             "id": 893,
             "quote": "If You'Re Going To Be Crazy, You Have To Get Paid For It Or Else You'Re Going To Be Locked Up.",
             "author": "Hunter S. Thompson"
-        },
-        {
-            "id": 894,
-            "quote": "I Was Not Created To Be Occupied By Eating Delicious Foods Like Tied Up Cattle.",
-            "author": "Ali Ibn Abi Talib"
         },
         {
             "id": 895,
@@ -4501,34 +3161,14 @@
             "author": "Abraham Lincoln"
         },
         {
-            "id": 901,
-            "quote": "You see, God helps only people who work hard. That principle is very clear.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 902,
             "quote": "I've wrestled with alligators, I've tussled with a whale. I done handcuffed lightning and thrown thunder in jail. You know I'm bad. Just last week, I murdered a rock, injured a stone, hospitalized a brick. I'm so mean, I make medicine sick.",
             "author": "Muhammad Ali"
         },
         {
-            "id": 903,
-            "quote": "The youth need to be enabled to become job generators from job seekers.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 904,
             "quote": "I Like To Listen. I Have Learned A Great Deal From Listening Carefully. Most People Never Listen.",
             "author": "Ernest Hemingway"
-        },
-        {
-            "id": 905,
-            "quote": "Try as much as you can to mention death. For if you were having hard times in your life, then it would give you more hope and would ease things for you. And if you were having abundant affluence of living in luxury, then it would make it less luxurious.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 906,
-            "quote": "Do not be an arrogant scholar, for scholarship cannot subsist with arrogance.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 907,
@@ -4539,11 +3179,6 @@
             "id": 908,
             "quote": "Our Greatest Fear Should Not Be Of Failure But Of Succeeding At Things In Life That Don'T Really Matter.",
             "author": "Francis Chan"
-        },
-        {
-            "id": 909,
-            "quote": "Allah loves moderation and hates extravagance and excess.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 910,
@@ -4559,16 +3194,6 @@
             "id": 912,
             "quote": "My Mission In Life Is Not Merely To Survive, But To Thrive; And To Do So With Some Passion, Some Compassion, Some Humor, And Some Style",
             "author": "Maya Angelou"
-        },
-        {
-            "id": 913,
-            "quote": "Good actions are a guard against the blows of adversity.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 914,
-            "quote": "There is greatness in the fear of God, contentment in faith of God, and honour in humility.",
-            "author": "Abu Bakr (R.A)"
         },
         {
             "id": 915,
@@ -4591,24 +3216,9 @@
             "author": "Henry Ford"
         },
         {
-            "id": 919,
-            "quote": "The nourishment of body is food, while the nourishment of the soul is feeding others.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 920,
-            "quote": "There is no goodness in people who don't give advice, and there is no goodness in people who don't like to be advised.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 921,
             "quote": "The Whole Of Science Is Nothing More Than A Refinement Of Everyday Thinking.",
             "author": "Albert Einstein"
-        },
-        {
-            "id": 922,
-            "quote": "When we tackle obstacles, we find hidden reserves of courage and resilience we did not know we had. And it is only when we are faced with failure do we realise that these resources were always there within us. We only need to find them and move on with our lives.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 923,
@@ -4644,11 +3254,6 @@
             "id": 929,
             "quote": "Microsoft Is Not About Greed. It'S About Innovation And Fairness.",
             "author": "Bill Gates"
-        },
-        {
-            "id": 930,
-            "quote": "When you see that any scholar loves the world, then his scholarship is in doubt.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 931,
@@ -4691,11 +3296,6 @@
             "author": "Rumi"
         },
         {
-            "id": 939,
-            "quote": "Acquire knowledge before you become leaders and pride prevents you from learning and you live in ignorance.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 940,
             "quote": "Bitterness Is Like Cancer. It Eats...",
             "author": "Maya Angelou"
@@ -4721,31 +3321,6 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 945,
-            "quote": "He who keeps his own counsel keeps his affairs in his own hands.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 946,
-            "quote": "To whatever extent a person's knowledge increases, his attention will be turned more towards his soul.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 947,
-            "quote": "If an ignorant person is attracted by the things of the world, that is bad. But if a learned person is thus attracted, it is worse.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 948,
-            "quote": "Surely silence can sometimes be the most eloquent reply.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 949,
-            "quote": "Once your mind stretches to a new level it never goes back to its original dimension.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 950,
             "quote": "I was saying “I'm the greatest” long before I believed it.",
             "author": "Muhammad Ali"
@@ -4764,16 +3339,6 @@
             "id": 953,
             "quote": "Intellectual Property Has The Shelf Life Of A Banana.",
             "author": "Bill Gates"
-        },
-        {
-            "id": 954,
-            "quote": "He who understands humanity seeks solitude.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 955,
-            "quote": "I was not created to be occupied by eating delicious foods like tied up cattle.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 956,
@@ -4826,11 +3391,6 @@
             "author": "Elizabeth II"
         },
         {
-            "id": 966,
-            "quote": "To line only for some unknown future is superficial.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 967,
             "quote": "Money Is The Barometer Of A Society'S Virtue.",
             "author": "Ayn Rand"
@@ -4846,24 +3406,9 @@
             "author": "Thomas A. Edison"
         },
         {
-            "id": 970,
-            "quote": "Maybe a thing that you do not like is really in your interest. It is possible that a thing that you may desire may be against your interest.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 971,
             "quote": "People Always Ask Me, 'Were You Funny As A Child?' Well, No, I Was An Accountant.",
             "author": "Ellen DeGeneres"
-        },
-        {
-            "id": 972,
-            "quote": "I'm not an expert on the arms race.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 973,
-            "quote": "Sit with those who love Allah, for that enlightens the mind.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 974,
@@ -4889,11 +3434,6 @@
             "id": 978,
             "quote": "In the big leagues everyone has ability. It always comes down to mind games. Who ever is more mentally strong-wins.",
             "author": "Muhammad Ali"
-        },
-        {
-            "id": 979,
-            "quote": "Don't take rest after your first victory because if you fail in second, more lips are waiting to say that your first victory was just luck.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 980,
@@ -4931,11 +3471,6 @@
             "author": "Rumi"
         },
         {
-            "id": 987,
-            "quote": "Teaching is a very noble profession that shapes the character, caliber, and future of an individual. If the people remember me as a good teacher, that will be the biggest honour for me.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 988,
             "quote": "A Man Should Never Neglect His Family For Business.",
             "author": "Walt Disney"
@@ -4966,11 +3501,6 @@
             "author": "Ernest Hemingway"
         },
         {
-            "id": 994,
-            "quote": "Take account of your deeds before they are taken account of.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 995,
             "quote": "Faith Is Taking The First Step Even When You Don'T See The Whole Staircase.",
             "author": "Martin Luther King  Jr."
@@ -4986,21 +3516,6 @@
             "author": "John F. Kennedy"
         },
         {
-            "id": 998,
-            "quote": "Like your body your mind also gets tired so refresh it by wise sayings.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 999,
-            "quote": "God helps those who fear Him.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 1000,
-            "quote": "During civil disturbance adopt such an attitude that people do not attach any importance to you - they neither burden you with complicated affairs, nor try to derive any advantage out of you.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1001,
             "quote": "Whether You Think That You Can, Or That You Can'T, You Are Usually Right.",
             "author": "Henry Ford"
@@ -5014,11 +3529,6 @@
             "id": 1003,
             "quote": "The man with no imagination has no wings.",
             "author": "Muhammad Ali"
-        },
-        {
-            "id": 1004,
-            "quote": "Today, India is a nuclear weapons state.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 1005,
@@ -5039,16 +3549,6 @@
             "id": 1008,
             "quote": "To Say \"I Love You\" One Must First Be Able To Say The \"I.\"",
             "author": "Ayn Rand"
-        },
-        {
-            "id": 1009,
-            "quote": "Patience to faith is like the head to the body. The person who has no patience has not faith.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 1010,
-            "quote": "Nations Are Born In The Hearts Of Poets, They Prosper And Die In The Hands Of Politicians.",
-            "author": "Muhammad Iqbal"
         },
         {
             "id": 1011,
@@ -5131,11 +3631,6 @@
             "author": "Winston Churchill"
         },
         {
-            "id": 1027,
-            "quote": "War is never a lasting solution for any problem.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 1028,
             "quote": "I Never Think Of The Future - It Comes Soon Enough.",
             "author": "Albert Einstein"
@@ -5151,19 +3646,9 @@
             "author": "Victor Hugo"
         },
         {
-            "id": 1031,
-            "quote": "Fear Allah, for He alone lives; all other things are liable to perish.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 1032,
             "quote": "I once had a thousand desires. But in my one desire to know you, all else melted away.",
             "author": "Rumi"
-        },
-        {
-            "id": 1033,
-            "quote": "God forbid, men should be jealous of knowledge as they are jealous of women.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 1034,
@@ -5196,19 +3681,9 @@
             "author": "Albert Camus"
         },
         {
-            "id": 1040,
-            "quote": "He Who Fears To Weep, Should Learn To Be Kind To Those Who Weep.",
-            "author": "Abu Bakr"
-        },
-        {
             "id": 1041,
             "quote": "The Criminal Is Trying To Solve His Immediate Problems.",
             "author": "Naguib Mahfouz"
-        },
-        {
-            "id": 1042,
-            "quote": "It Is very easy to defeat someone, but it is very hard to win someone.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 1043,
@@ -5221,16 +3696,6 @@
             "author": "Abraham Lincoln"
         },
         {
-            "id": 1045,
-            "quote": "No sanction can stand against ignited minds.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 1046,
-            "quote": "Understanding the knowledge and wisdom of the Qur'an is by far, higher than memorizing.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1047,
             "quote": "Gratitude is the wine for the soul. Go on. Get drunk.",
             "author": "Rumi"
@@ -5239,11 +3704,6 @@
             "id": 1048,
             "quote": "All Of Our Dreams Can Come True.",
             "author": "Walt Disney"
-        },
-        {
-            "id": 1049,
-            "quote": "The days of life pass away like clouds, so do good while you are alive.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 1050,
@@ -5259,11 +3719,6 @@
             "id": 1052,
             "quote": "How Hard, How Bitter It Is To Become A Man!",
             "author": "Albert Camus"
-        },
-        {
-            "id": 1053,
-            "quote": "Conduct, Which Involves A Decision Of The Ultimate Fate Of The Agent Cannot Be Based On Illusions.",
-            "author": "Muhammed Iqbal"
         },
         {
             "id": 1054,
@@ -5316,24 +3771,9 @@
             "author": "William Shakespeare"
         },
         {
-            "id": 1064,
-            "quote": "The outcome of fear is disappointment and shyness is frustration.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1065,
             "quote": "All My Life Through, The New Sights Of Nature Made Me Rejoice Like A Child.",
             "author": "Marie Curie"
-        },
-        {
-            "id": 1066,
-            "quote": "He Who Avoids Complaint Invites Happiness.",
-            "author": "Abu Bakr"
-        },
-        {
-            "id": 1067,
-            "quote": "Work with integrity and succeed with integrity.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 1068,
@@ -5351,29 +3791,9 @@
             "author": "Confucius"
         },
         {
-            "id": 1071,
-            "quote": "There is no nobility with bad manners.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 1072,
-            "quote": "You should not quarrel with your neighbor, for he will remain where he is, but your high handedness will become the talk of the people.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 1073,
-            "quote": "Never stop fighting until you arrive at your destined place - that is, the unique you. Have an aim in life, continuously acquire knowledge, work hard, and have perseverance to realise the great life.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 1074,
             "quote": "I Like To See A Man Proud Of The Place In Which He Lives. I Like To See A Man Live So That His Place Will Be Proud Of Him.",
             "author": "Abraham Lincoln"
-        },
-        {
-            "id": 1075,
-            "quote": "Let me define a leader. He must have vision and passion and not be afraid of any problem. Instead, he should know how to defeat it. Most importantly, he must work with integrity.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 1076,
@@ -5401,11 +3821,6 @@
             "author": "Benjamin Franklin"
         },
         {
-            "id": 1081,
-            "quote": "One who thinks and reflects develops his foresight and vision.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1082,
             "quote": "When Red-Haired People Are Above A Certain Social Grade Their Hair Is Auburn.",
             "author": "Mark Twain"
@@ -5424,11 +3839,6 @@
             "id": 1085,
             "quote": "Two Great European Narcotics, Alcohol And Christianity.",
             "author": "Friedrich Nietzsche"
-        },
-        {
-            "id": 1086,
-            "quote": "That which you do not wish for yourself, do not impose on others.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 1087,
@@ -5481,11 +3891,6 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 1097,
-            "quote": "There is no knowledge and science like pondering and thought; and there is no prosperity and advancement like knowledge and science.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1098,
             "quote": "If We Did All The Things We Are Capable Of, We Would Literally Astound Ourselves.",
             "author": "Thomas A. Edison"
@@ -5499,11 +3904,6 @@
             "id": 1100,
             "quote": "Don'T Find Fault, Find A Remedy.",
             "author": "Henry Ford"
-        },
-        {
-            "id": 1101,
-            "quote": "A friend cannot be considered a friend until he is tested in three occasions: in timeof need, behind your back, and after your death.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 1102,
@@ -5546,34 +3946,9 @@
             "author": "William Shakespeare"
         },
         {
-            "id": 1110,
-            "quote": "There is no capital more useful than intellect and wisdom, and there is no indigence more injurious than ignorance and unawareness.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1111,
             "quote": "There is a voice that doesn't use words. Listen.",
             "author": "Rumi"
-        },
-        {
-            "id": 1112,
-            "quote": "If a sheep dies on the shore of the Euphrates I fear lest Allah ask me to account for it on the Day of Resurrection.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 1113,
-            "quote": "Do not deceive or be faithless even with your enemy.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 1114,
-            "quote": "Pondering must turn out to be your cash asset, regardless of whichever ups and downs you occur throughout in the everyday living.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 1115,
-            "quote": "Building capacity dissolves differences. It irons out inequalities.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 1116,
@@ -5581,19 +3956,9 @@
             "author": "Rumi"
         },
         {
-            "id": 1117,
-            "quote": "As long as you are pure of heart, you speak the truth.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 1118,
             "quote": "Most People Spend More Time And Energy Going Around Problems Than In Trying To Solve Them.",
             "author": "Henry Ford"
-        },
-        {
-            "id": 1119,
-            "quote": "If You Judge People, You Have No Time To Love Them.",
-            "author": "Mother Teresa"
         },
         {
             "id": 1120,
@@ -5639,11 +4004,6 @@
             "id": 1128,
             "quote": "What comes, will go. What is found, will be lost again. But what you are is beyond coming and going and beyond description.",
             "author": "Rumi"
-        },
-        {
-            "id": 1129,
-            "quote": "Dreams are not those which comes while we are sleeping, but dreams are those when u don't sleep before fulfilling them.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 1130,
@@ -5706,11 +4066,6 @@
             "author": "Rumi"
         },
         {
-            "id": 1142,
-            "quote": "To be alone means that you avoid bad company. But to have a true friend is better than being alone.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 1143,
             "quote": "I am the greatest.",
             "author": "Muhammad Ali"
@@ -5719,11 +4074,6 @@
             "id": 1144,
             "quote": "Only a man who knows what it is like to be defeated can reach down to the bottom of his soul and come up with the extra ounce of power it takes to win when the match is even.",
             "author": "Muhammad Ali"
-        },
-        {
-            "id": 1145,
-            "quote": "Riches without faith are the greatest poverty.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 1146,
@@ -5741,29 +4091,9 @@
             "author": "Rumi"
         },
         {
-            "id": 1149,
-            "quote": "O Allah do not give me in excess lest I may be disobedient.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 1150,
             "quote": "Eros Will Have Naked Bodies; Friendship Naked Personalities.",
             "author": "C. S. Lewis"
-        },
-        {
-            "id": 1151,
-            "quote": "In a democracy, the well-being, individuality and happiness of every citizen is important for the overall prosperity, peace and happiness of the nation.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 1152,
-            "quote": "The happiest of people is the one under whose care people are happy because of him, and the most miserable of people is the one under whose care people are miserable because of him.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 1153,
-            "quote": "He who guards his secrets retains control in his own hands.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 1154,
@@ -5774,21 +4104,6 @@
             "id": 1155,
             "quote": "Humility Is Not Thinking Less Of Yourself, It'S Thinking Of Yourself Less.",
             "author": "C. S. Lewis"
-        },
-        {
-            "id": 1156,
-            "quote": "No amount of worrying can change the future. Go easy on yourself, for the outcome of all affairs is determined by God's decree. If something is meant to go elsewhere, it will never come your way, but if it is yours by destiny, from you it cannot flee.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 1157,
-            "quote": "Fear him, whom you hate.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 1158,
-            "quote": "The word of God is the medicine of the heart.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 1159,
@@ -5831,11 +4146,6 @@
             "author": "Bill Cosby"
         },
         {
-            "id": 1167,
-            "quote": "Always consider your intellect to be lacking; otherwise too much faith in it surely leads to error.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1168,
             "quote": "The minute I heard my first love story, I started looking for you, not knowing how blind that was. Lovers don't finally meet somewhere. They're in each other all along.",
             "author": "Rumi"
@@ -5849,11 +4159,6 @@
             "id": 1170,
             "quote": "As We Look Ahead Into The Next Century, Leaders Will Be Those Who Empower Others.",
             "author": "Bill Gates"
-        },
-        {
-            "id": 1171,
-            "quote": "Problems are common, but attitude makes the difference.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 1172,
@@ -5881,24 +4186,9 @@
             "author": "Zig Ziglar"
         },
         {
-            "id": 1177,
-            "quote": "Silence is the best reply to a fool.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 1178,
-            "quote": "Good Actions Are A Guard Against The Blows Of Adversity.",
-            "author": "Abu Bakr"
-        },
-        {
             "id": 1179,
             "quote": "Nature Hath Framed Strange Fellows In Her Time.",
             "author": "William Shakespeare"
-        },
-        {
-            "id": 1180,
-            "quote": "No man can have anything better after faith than a woman of righteous character, loving and child-bearing. And no man can have anything worse after unbelief than a sharp-tongued woman of bad character.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 1181,
@@ -5914,11 +4204,6 @@
             "id": 1183,
             "quote": "Sports For Me Is When A Guy Walks Off The Court, And You Really Can'T Tell Whether He Won Or Lost, When He Carries Himself With Pride Either Way.",
             "author": "Jim Courier"
-        },
-        {
-            "id": 1184,
-            "quote": "Poverty is the worst form of death.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 1185,
@@ -5959,21 +4244,6 @@
             "id": 1192,
             "quote": "We Are Not Trying To Entertain The Critics. I'Ll Take My Chances With The Public.",
             "author": "Walt Disney"
-        },
-        {
-            "id": 1193,
-            "quote": "Everyone's life is a page in the human history irrespective of the position he or she holds or the work he or she performs.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 1194,
-            "quote": "Learn the Arabic language; it will sharpen your wisdom.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 1195,
-            "quote": "When wisdom reaches the acme of perfection, it will suppress the vicious instincts and injurious desires.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 1196,
@@ -6021,11 +4291,6 @@
             "author": "Walt Disney"
         },
         {
-            "id": 1205,
-            "quote": "Fear Allah, for that is fortune; indifference to Allah is misfortune.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 1206,
             "quote": "These pains you feel are messengers. Listen to them.",
             "author": "Rumi"
@@ -6036,34 +4301,14 @@
             "author": "Mark Twain"
         },
         {
-            "id": 1208,
-            "quote": "Muslims Should Live Like Brothers.",
-            "author": "Abu Bakr"
-        },
-        {
-            "id": 1209,
-            "quote": "Be like a flower that gives its fragrance even to the hand that crushed it.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1210,
             "quote": "When you do things from your soul, you feel a river moving in you, a joy.",
             "author": "Rumi"
         },
         {
-            "id": 1211,
-            "quote": "We are a people whom Allah gave might and glory to through Islam, so we will never seek glory through anything else.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 1212,
             "quote": "It Is Not The Employer Who Pays The Wages. Employers Only Handle The Money. It Is The Customer Who Pays The Wages.",
             "author": "Henry Ford"
-        },
-        {
-            "id": 1213,
-            "quote": "Piety is the most solid goodness, and the vilest of what is evil is vice.",
-            "author": "Abu Bakr (R.A)"
         },
         {
             "id": 1214,
@@ -6081,29 +4326,9 @@
             "author": "Winston Churchill"
         },
         {
-            "id": 1217,
-            "quote": "Every Time You Smile At Someone, It Is An Action Of Love, A Gift To That Person, A Beautiful Thing.",
-            "author": "Mother Teresa"
-        },
-        {
-            "id": 1218,
-            "quote": "Do not be like those on whom advice has no effect and who require punishment to correct themselves.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 1219,
-            "quote": "A calamity does not descend except due to a sin and it is not lifted except with repentance.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1220,
             "quote": "The Undiscovered Country From Whose Bourn No Traveler Returns.",
             "author": "William Shakespeare"
-        },
-        {
-            "id": 1221,
-            "quote": "A Fool can become a Genius when he understands he is a Fool but. A Genius can become a Fool when he understands he is a Genius.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 1222,
@@ -6124,11 +4349,6 @@
             "id": 1225,
             "quote": "Wherever You Go, Go With All Your Heart.",
             "author": "Confucius"
-        },
-        {
-            "id": 1226,
-            "quote": "Renouncing the worldly pleasures is a comfort for both the human heart and body.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 1227,
@@ -6156,19 +4376,9 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 1232,
-            "quote": "One who is mild rather than forceful has greater capacity for outreach.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1233,
             "quote": "The Time Is Always Right To Do What Is Right.",
             "author": "Martin Luther King  Jr."
-        },
-        {
-            "id": 1234,
-            "quote": "Love Begins By Taking Care Of The Closest Ones - The Ones At Home.",
-            "author": "Mother Teresa"
         },
         {
             "id": 1235,
@@ -6201,11 +4411,6 @@
             "author": "Albert Einstein"
         },
         {
-            "id": 1241,
-            "quote": "The greatest truth is honesty, and the greatest falsehood is dishonesty.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 1242,
             "quote": "People Do Not Lack Strength; They Lack Will.",
             "author": "Victor Hugo"
@@ -6224,11 +4429,6 @@
             "id": 1245,
             "quote": "I looked for God. I went to a temple and I didn't find him there. Then I went to a church and I didn't find him there. The I went to a mosque and I didn't find him there. Then finally I looked in my heart and there he was.",
             "author": "Rumi"
-        },
-        {
-            "id": 1246,
-            "quote": "For great men, religion is a way of making friends; small people make religion a fighting tool.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 1247,
@@ -6256,34 +4456,9 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 1252,
-            "quote": "On every dishonest man, there are two watchmen, his possessions, and his way of living.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 1253,
-            "quote": "Yesterday Is Gone. Tomorrow Has Not Yet Come. We Have Only Today. Let Us Begin.",
-            "author": "Mother Teresa"
-        },
-        {
-            "id": 1254,
-            "quote": "Fear only the will of God and you will have no cause to fear anyone else.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1255,
             "quote": "There cannot be self-restraint in the absence of desire: when there is no adversary, what avails thy courage? Hark, do not castrate thyself, do not become a monk: chastity depends on the existence of lust.",
             "author": "Rumi"
-        },
-        {
-            "id": 1256,
-            "quote": "Man needs his difficulties because they are necessary to enjoy success.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 1257,
-            "quote": "As a young citizen of India, armed with technology and love for my nation, I realize, a small aim is a crime.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 1258,
@@ -6316,16 +4491,6 @@
             "author": "Mark Twain"
         },
         {
-            "id": 1264,
-            "quote": "The most important of your affairs in my view is prayer; whoever prays regularly has protected his faith, but whoever neglects it, is bound to be more negligent in other issues of faith.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 1265,
-            "quote": "The So-Called Peace Path Is Not Peace And It Is Not A Substitute For Jihad And Resistance.",
-            "author": "Ahmed Yassin"
-        },
-        {
             "id": 1266,
             "quote": "The Christian Resolution To Find The World Ugly And Bad Has Made The World Ugly And Bad.",
             "author": "Friedrich Nietzsche"
@@ -6341,11 +4506,6 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 1269,
-            "quote": "The person I like most is the one who points out my defects.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 1270,
             "quote": "You Don'T Learn To Walk By Following Rules. You Learn By Doing, And By Falling Over.",
             "author": "Richard Branson"
@@ -6356,11 +4516,6 @@
             "author": "Rumi"
         },
         {
-            "id": 1272,
-            "quote": "He who wins through fraud is not a winner.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 1273,
             "quote": "It Is No Use Saying, 'We Are Doing Our Best.' You Have Got To Succeed In Doing What Is Necessary.",
             "author": "Winston Churchill"
@@ -6369,11 +4524,6 @@
             "id": 1274,
             "quote": "Open your arms if you want the Beloved's embrace.",
             "author": "Rumi"
-        },
-        {
-            "id": 1275,
-            "quote": "Taqwaa is not by praying all night and fasting all day but rather it is abiding by the commands of Allah and staying away from His prohibitions.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
         },
         {
             "id": 1276,
@@ -6389,11 +4539,6 @@
             "id": 1278,
             "quote": "If You Can'T Fly Then Run, If You Can'T Run Then Walk, If You Can'T Walk Then Crawl, But Whatever You Do You Have To Keep Moving Forward.",
             "author": "Martin Luther King  Jr."
-        },
-        {
-            "id": 1279,
-            "quote": "Never make a decision in anger and never make a promise in happiness.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 1280,
@@ -6486,16 +4631,6 @@
             "author": "Friedrich Nietzsche"
         },
         {
-            "id": 1298,
-            "quote": "We need to create brand institutions. In the fortune 500 companies, 5 Indian companies are named while 15 are from China though we have similar kind of populations.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 1299,
-            "quote": "The wiser a man is, the less talkative will he be.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1300,
             "quote": "Whoever Is Happy Will Make Others Happy Too.",
             "author": "Anne Frank"
@@ -6509,16 +4644,6 @@
             "id": 1302,
             "quote": "The Dog Is A Gentleman; I Hope To Go To His Heaven Not Man'S.",
             "author": "Mark Twain"
-        },
-        {
-            "id": 1303,
-            "quote": "Reciter and listener of the Qur'an are alike in prize and reward.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 1304,
-            "quote": "If anybody seeks your advice, offer right and sincere advice.",
-            "author": "Abu Bakr (R.A)"
         },
         {
             "id": 1305,
@@ -6541,19 +4666,9 @@
             "author": "Anne Frank"
         },
         {
-            "id": 1309,
-            "quote": "To maintain nice relation with the people is half of intelligence, nice questioning is half of knowledge, and nice domestic arrangements is half of the management of livelihood.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1310,
             "quote": "I Like To Listen. I Have Learned A Great Deal From Listening Carefully. Most People Never Listen.",
             "author": "Ernest Hemingway"
-        },
-        {
-            "id": 1311,
-            "quote": "When a nation is surrounded by weaponized nations, she has to equip herself.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 1312,
@@ -6564,11 +4679,6 @@
             "id": 1313,
             "quote": "You'Ll Notice That Nancy Reagan Never Drinks Water When Ronnie Speaks.",
             "author": "Robin Williams"
-        },
-        {
-            "id": 1314,
-            "quote": "I Went To The Bank And Proposed That They Lend Money To The Poor People. The Bankers Almost Fell Over.",
-            "author": "Muhammad Yunus"
         },
         {
             "id": 1315,
@@ -6586,21 +4696,6 @@
             "author": "Maya Angelou"
         },
         {
-            "id": 1318,
-            "quote": "Measuring nuclear yield depends on multiple parameters - the location and number of instruments, the geology of the area, the location of the seismic station in relation to the test site.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 1319,
-            "quote": "Jihad is obligatory for the Muslims.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 1320,
-            "quote": "Educationists should build the capacities of the spirit of inquiry, creativity, entrepreneurial and moral leadership among students and become their role model.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 1321,
             "quote": "If You Want Others To Be Happy, Practice Compassion. If You Want To Be Happy, Practice Compassion.",
             "author": "Dalai Lama"
@@ -6609,11 +4704,6 @@
             "id": 1322,
             "quote": "Let go of your mind and then be mindful. Close your ears and listen!",
             "author": "Rumi"
-        },
-        {
-            "id": 1323,
-            "quote": "Safety lies in silence. It is easier to rectify what you miss by silence, than to secure what you lose by speaking.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 1324,
@@ -6661,11 +4751,6 @@
             "author": "Friedrich Nietzsche"
         },
         {
-            "id": 1333,
-            "quote": "There are three signs of a knowledgeable person: knowledge, forbearance and silence.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1334,
             "quote": "I'M Not In This World To Live Up To Your Expectations And You'Re Not In This World To Live Up To Mine.",
             "author": "Bruce Lee"
@@ -6691,11 +4776,6 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 1339,
-            "quote": "To succeed in your mission, you must have single-minded devotion to your goal.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 1340,
             "quote": "Far And Away The Best Prize That Life Has To Offer Is The Chance To Work Hard At Work Worth Doing.",
             "author": "Theodore Roosevelt"
@@ -6716,19 +4796,9 @@
             "author": "Rumi"
         },
         {
-            "id": 1344,
-            "quote": "Who do you think's better looking people in the north or people in the south?",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 1345,
             "quote": "To Improve Is To Change; To Be Perfect Is To Change Often.",
             "author": "Winston Churchill"
-        },
-        {
-            "id": 1346,
-            "quote": "Beautiful people are not always good, but good people are always beautiful.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 1347,
@@ -6739,21 +4809,6 @@
             "id": 1348,
             "quote": "My only fault is that I don't realize how great I really am.",
             "author": "Muhammad Ali"
-        },
-        {
-            "id": 1349,
-            "quote": "Economy forced me to become a vegetarian, but I finally starting liking it.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 1350,
-            "quote": "Thinking is progress. Non-thinking is stagnation of the individual, organization and the country. Thinking leads to action. Knowledge without action is useless and irrelevant. Knowledge with action, converts adversity into prosperity.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 1351,
-            "quote": "The world is darkness; knowledge is light; but knowledge without truth is a mere shadow.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 1352,
@@ -6771,16 +4826,6 @@
             "author": "Theodore Roosevelt"
         },
         {
-            "id": 1355,
-            "quote": "Forgive people so that Allah may forgive you.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 1356,
-            "quote": "We Have New Developing Ties With Japan Whom Always Supports Our Democratic Process And Economic Development.",
-            "author": "Ali A. Saleh"
-        },
-        {
             "id": 1357,
             "quote": "George Washington, As A Boy, Was Ignorant Of The Commonest Accomplishments Of Youth. He Could Not Even Lie.",
             "author": "Mark Twain"
@@ -6789,11 +4834,6 @@
             "id": 1358,
             "quote": "Those Who Make Peaceful Revolution Impossible Will Make Violent Revolution Inevitable.",
             "author": "John F. Kennedy"
-        },
-        {
-            "id": 1359,
-            "quote": "The more knowledge you have, the greater will be your fear of Allah.",
-            "author": "Abu Bakr (R.A)"
         },
         {
             "id": 1360,
@@ -6811,24 +4851,9 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 1363,
-            "quote": "I was willing to accept what I couldn't change.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 1364,
             "quote": "Life Loves To Be Taken By The Lapel And Told: \"I'M With You Kid. Let'S Go.\"",
             "author": "Maya Angelou"
-        },
-        {
-            "id": 1365,
-            "quote": "My view is that at a younger age your optimism is more and you have more imagination etc. You have less bias.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 1366,
-            "quote": "As a child of God, I am greater than anything that can happen to me.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 1367,
@@ -6839,11 +4864,6 @@
             "id": 1368,
             "quote": "I Gave In, And Admitted That God Was God.",
             "author": "C. S. Lewis"
-        },
-        {
-            "id": 1369,
-            "quote": "Life is a difficult game. You can win it only by retaining your birthright to be a person.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 1370,
@@ -6871,21 +4891,6 @@
             "author": "Rumi"
         },
         {
-            "id": 1375,
-            "quote": "Without knowledge action is useless and knowledge without action is futile.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
-            "id": 1376,
-            "quote": "Avoidance of sin is lighter than the pain of remorse.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
-            "id": 1377,
-            "quote": "I will be patient till even patience tires of my patience.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1378,
             "quote": "Let Every Eye Negotiate For Itself And Trust No Agent.",
             "author": "William Shakespeare"
@@ -6901,29 +4906,14 @@
             "author": "Confucius"
         },
         {
-            "id": 1381,
-            "quote": "A wise man first thinks and then speaks and a fool speaks first and then thinks.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1382,
             "quote": "Here is a relationship booster that is guaranteed to work: Every time your spouse or lover says something stupid make your eyes light up as if you just heard something brilliant.",
             "author": "Rumi"
         },
         {
-            "id": 1383,
-            "quote": "Many a spoken word is more piercing than an attack.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1384,
             "quote": "Sell your cleverness and buy bewilderment. Cleverness is mere opinion. Bewilderment brings intuitive knowledge.",
             "author": "Rumi"
-        },
-        {
-            "id": 1385,
-            "quote": "Learning gives creativity. Creativity leads to thinking. Thinking provides knowledge. Knowledge makes you great.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 1386,
@@ -6941,11 +4931,6 @@
             "author": "Confucius"
         },
         {
-            "id": 1389,
-            "quote": "Do not take someone's silence as his pride, perhaps he is busy fighting with his self.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1390,
             "quote": "Wherever you stand, be the soul of that place.",
             "author": "Rumi"
@@ -6954,11 +4939,6 @@
             "id": 1391,
             "quote": "Our Prime Purpose In This Life Is To Help Others. And If You Can'T Help Them, At Least Don'T Hurt Them.",
             "author": "Dalai Lama"
-        },
-        {
-            "id": 1392,
-            "quote": "Solitude Is Better Than The Society Of Evil Persons.",
-            "author": "Abu Bakr"
         },
         {
             "id": 1393,
@@ -6976,16 +4956,6 @@
             "author": "Muhammad Ali"
         },
         {
-            "id": 1396,
-            "quote": "The best brains of the nation may be found on the last benches of the classroom.",
-            "author": "Abdul Kalam"
-        },
-        {
-            "id": 1397,
-            "quote": "He who becomes a Muslim does so in his own interest.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 1398,
             "quote": "Forget safety. Live where you fear to live. Destroy your reputation. Be notorious.",
             "author": "Rumi"
@@ -6999,11 +4969,6 @@
             "id": 1400,
             "quote": "To Be Perfectly Happy It Does Not Suffice To Possess Happiness, It Is Necessary To Have Deserved It.",
             "author": "Victor Hugo"
-        },
-        {
-            "id": 1401,
-            "quote": "Those who cannot work with their hearts achieve but a hollow, half-hearted success that breeds bitterness all around.",
-            "author": "Abdul Kalam"
         },
         {
             "id": 1402,
@@ -7076,11 +5041,6 @@
             "author": "Willie Nelson"
         },
         {
-            "id": 1416,
-            "quote": "Israel, As The Jewish State, Must Disappear From The Map.",
-            "author": "Ahmed Yassin"
-        },
-        {
             "id": 1417,
             "quote": "The World Is A Dangerous Place To Live; Not Because Of The People Who Are Evil, But Because Of The People Who Don'T Do Anything About It.",
             "author": "Albert Einstein"
@@ -7089,11 +5049,6 @@
             "id": 1418,
             "quote": "It Is Not Best That We Should All Think Alike; It Is A Difference Of Opinion That Makes Horse Races.",
             "author": "Mark Twain"
-        },
-        {
-            "id": 1419,
-            "quote": "Intense Love Does Not Measure, It Just Gives.",
-            "author": "Mother Teresa"
         },
         {
             "id": 1420,
@@ -7111,11 +5066,6 @@
             "author": "Henry Ford"
         },
         {
-            "id": 1423,
-            "quote": "Total commitment is the common denominator among all successful men and women.",
-            "author": "Abdul Kalam"
-        },
-        {
             "id": 1424,
             "quote": "Rest but never quit. Even the sun has a sinking spell each evening. But it always rises the next morning. At sunrise, every soul is born again.",
             "author": "Muhammad Ali"
@@ -7124,11 +5074,6 @@
             "id": 1425,
             "quote": "You Can Have No Dominion Greater Or Less Than That Over Yourself.",
             "author": "Leonardo Da Vinci"
-        },
-        {
-            "id": 1426,
-            "quote": "I Want You To Be Concerned About Your Next Door Neighbor. Do You Know Your Next Door Neighbor?",
-            "author": "Mother Teresa"
         },
         {
             "id": 1427,
@@ -7151,11 +5096,6 @@
             "author": "Rumi"
         },
         {
-            "id": 1431,
-            "quote": "Do not share the knowledge with which you have been blessed with everyone in general, as you do with some people in particular; and know that there are some men in whom Allah, may He he glorified, has placed hidden secrets, which they are forbidden to reveal.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1432,
             "quote": "Your heart knows the way. Run in that direction.",
             "author": "Rumi"
@@ -7171,11 +5111,6 @@
             "author": "William Shakespeare"
         },
         {
-            "id": 1435,
-            "quote": "Our abode in this world is transitory, our life therein is but a loan, our breaths are numbered and our indolence is manifest.",
-            "author": "Abu Bakr (R.A)"
-        },
-        {
             "id": 1436,
             "quote": "All Credibility, All Good Conscience, All Evidence Of Truth Come Only From The Senses.",
             "author": "Friedrich Nietzsche"
@@ -7184,16 +5119,6 @@
             "id": 1437,
             "quote": "Once Spirit Was God, Then It Became Man, And Now It Is Even Becoming Mob.",
             "author": "Friedrich Nietzsche"
-        },
-        {
-            "id": 1438,
-            "quote": "Wealth tends to create enemies, whereas knowledge tends to warm hearts.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
-            "id": 1439,
-            "quote": "Be afraid of a dignified man when he is hungry and a wicked man when his belly is full.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 1440,
@@ -7221,11 +5146,6 @@
             "author": "Stephen King"
         },
         {
-            "id": 1445,
-            "quote": "To forgive an oppressor is oppression upon the oppressed.",
-            "author": "Umar ibn Al-Khattāb (R.A)"
-        },
-        {
             "id": 1446,
             "quote": "Our death is our wedding with eternity.",
             "author": "Rumi"
@@ -7234,11 +5154,6 @@
             "id": 1447,
             "quote": "Imagination Is More Important Than Knowledge.",
             "author": "Albert Einstein"
-        },
-        {
-            "id": 1448,
-            "quote": "When proven wrong, the wise man will correct himself and the ignorant will keep arguing.",
-            "author": "Ali ibn Abi Talib (R.A)"
         },
         {
             "id": 1449,
@@ -7261,17 +5176,12 @@
             "author": "Steve Jobs"
         },
         {
-            "id": 1453,
-            "quote": "Contentment is a wealth that is never exhausted.",
-            "author": "Ali ibn Abi Talib (R.A)"
-        },
-        {
             "id": 1454,
             "quote": "There is nothing outside of yourself, look within. Everything you want is there. You are That.",
             "author": "Rumi"
         }
     ],
-    "total": 1454,
+    "total": 1036,
     "skip": 0,
-    "limit": 1454
+    "limit": 1036
 }

@@ -39,7 +39,7 @@ class MyTextViewProvider {
     const [idleAnimationURI, runAnimationURI, jumpAnimationURI] = animationAssets;
 
     // Create URIs for JSON
-    const jsonFiles = ["filteredQuoets.json"].map((asset) =>
+    const jsonFiles = ["filteredQuotes.json"].map((asset) =>
       webviewView.webview.asWebviewUri(
         vscode.Uri.joinPath(vscode.Uri.file(__dirname), asset)
       )

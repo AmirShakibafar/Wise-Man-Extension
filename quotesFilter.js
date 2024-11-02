@@ -18,4 +18,4 @@ function processQuotes() {
 // Run processQuotes function
 processQuotes()
 // Save the updated JSON back to the file
-fs.writeFileSync('filteredQuoets.json', JSON.stringify(jsonData, null, 4));
+fs.writeFileSync('filteredQuotes.json', JSON.stringify(jsonData, null, 4));
