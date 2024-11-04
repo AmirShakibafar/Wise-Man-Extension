@@ -13,6 +13,7 @@ class MyTextViewProvider {
       "vector.js",
       "rectangle.js",
       "dialogBox.js",
+      "shuffle.js"
     ].map((file) => vscode.Uri.joinPath(vscode.Uri.file(__dirname), "src", file));
 
     const [
@@ -23,6 +24,7 @@ class MyTextViewProvider {
       vectorURI,
       rectangleURI,
       dialogBoxURI,
+      shuffleURI
     ] = scriptFiles.map((file) => webviewView.webview.asWebviewUri(file));
 
     // Create URIs for animation assets
@@ -72,6 +74,7 @@ class MyTextViewProvider {
       spriteAnimationURI,
       animationControllerURI,
       wiseManURI,
+      shuffleURI
     ];
     // Set the HTML content for the webview
     webviewView.webview.html = `

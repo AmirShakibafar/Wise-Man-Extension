@@ -132,6 +132,7 @@ resizeCanvas();
 // Fetch quotes and start the game loop
 const executeAfterFetchingQuotes = async () => {
   await readQuotesFromFile(); // Waits for asyncFunction to complete
+  window.quotesArray = shuffle(window.quotesArray); // Shuffle the quotes
   gameLoop();
 };
 
