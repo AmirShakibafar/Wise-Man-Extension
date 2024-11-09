@@ -130,3 +130,47 @@ class AlertManager {
     }, displayTime);
   }
 }
+
+class AlertHandleSystem {
+  constructor(walkGif, eyeGif, waterGif) {
+    this.alertManager = new AlertManager();
+    this.eyesAlert = new AlertBox(
+      `${eyeGif}`, 
+      "look away for a minute will ya?", 
+      () => {
+        console.log("hi"); // Callback action on confirm
+      }
+    );
+    this.walkAlert = new AlertBox(
+      `${walkGif}`, 
+      "you've been coding a lot go for a walk!", 
+      () => {
+        console.log('User confirmed!'); // Callback action on confirm
+      }
+    );
+    this.walkAlert.image.style.height = "45px";
+
+    this.waterAlert = new AlertBox(
+      `${waterGif}`, 
+      "why dont you have some water?", 
+      () => {
+        console.log('User confirmed!'); // Callback action on confirm
+      }
+    );
+    this.waterAlert.image.style.height = "45px";
+  }
+  start() {
+    // timings are not correct its for test only
+    setInterval(() => {
+      this.alertManager.enqueue(this.waterAlert, 2000); // Queue water alert every 10 seconds for testing
+    }, 10000); 
+    
+    setInterval(() => {
+      this.alertManager.enqueue(this.walkAlert, 2000); // Queue walk alert every 3 seconds for testing
+    }, 20000); 
+    
+    setInterval(() => {
+      this.alertManager.enqueue(this.eyesAlert, 2000); // Queue eyes alert every 2 seconds for testing
+    }, 5000);
+  }
+}

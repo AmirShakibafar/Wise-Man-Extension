@@ -106,33 +106,8 @@ class MyTextViewProvider {
                 const runAnimationURI = "${runAnimationURI}";
                 const jumpAnimationURI = "${jumpAnimationURI}";
                 const sprite = new WiseMan(new Vector2(0, 0), new Vector2(32, 40), 2, innerWidth, idleAnimationURI, runAnimationURI, jumpAnimationURI);
-                const eyesAlert = new AlertBox(
-                  "${eyeGif}", 
-                  "look away for a minute will ya?", 
-                  () => {
-                    console.log('User confirmed!'); // Callback action on confirm
-                  }
-                );
-                const walkAlert = new AlertBox(
-                  "${walkGif}", 
-                  "you've been coding a lot go for a walk!", 
-                  () => {
-                    console.log('User confirmed!'); // Callback action on confirm
-                  }
-                );
-                walkAlert.image.style.height = "45px";
-
-                const waterAlert = new AlertBox(
-                  "${waterGif}", 
-                  "why dont you have some water?", 
-                  () => {
-                    console.log('User confirmed!'); // Callback action on confirm
-                  }
-                );
-                waterAlert.image.style.height = "45px";
-                
-                // Expose the quotesArray globally
-                window.quotesArray = [];
+                const alertHandelSystem = new AlertHandleSystem("${walkGif}", "${eyeGif}", "${waterGif}");
+                window.quotesArray = []; // Expose the quotesArray globally
                 const readQuotesFromFile = async () => {
                     const response = await fetch("${quotesURI}"); // Fetch the JSON file
                     const quotesData = await response.json(); // Parse JSON
