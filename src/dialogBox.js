@@ -1,7 +1,7 @@
 class DialogBox {
   constructor() {
     this.dialogBox = document.createElement("div");
-    this.dialogBox.style.display = "none"; 
+    this.dialogBox.style.display = "none";
     this.dialogBox.style.position = "fixed"; // Fixed position relative to the viewport
     this.dialogBox.style.background = "rgba(0, 67, 70, 0.763)";
     this.dialogBox.style.color = "#fafafa";
@@ -22,24 +22,32 @@ class DialogBox {
   }
 
   show(message) {
-    this.dialogContent.textContent = message; 
-    this.dialogBox.style.display = "flex"; 
+    this.dialogContent.textContent = message;
+    this.dialogBox.style.display = "flex";
     requestAnimationFrame(() => {
-      this.dialogBox.style.opacity = "1"; 
+      this.dialogBox.style.opacity = "1";
       this.dialogBox.style.transform = "translate(-50%, 0)";
     });
   }
 
   hide() {
-    this.dialogBox.style.opacity = "0"; 
+    this.dialogBox.style.opacity = "0";
     this.dialogBox.addEventListener(
       "transitionend",
       () => {
-        this.dialogBox.style.display = "none"; 
+        this.dialogBox.style.display = "none";
       },
       { once: true }
     );
   }
+
+  showHoverDialog(message) {
+    if (message) {
+      this.show(message); 
+    } else {
+      this.hide(); 
+    }
+  };
 }
 
 // Extend DialogBox for Alerts
@@ -80,13 +88,13 @@ class AlertBox extends DialogBox {
 
     // Add hover effect with JavaScript events
     this.confirmButton.addEventListener("mouseenter", () => {
-      this.confirmButton.style.backgroundColor = "#fafafa"; 
+      this.confirmButton.style.backgroundColor = "#fafafa";
       this.confirmButton.style.color = "#172A3A";
       this.confirmButton.style.transform = "scale(1.1)";
     });
 
     this.confirmButton.addEventListener("mouseleave", () => {
-      this.confirmButton.style.backgroundColor = "#172A3A"; 
+      this.confirmButton.style.backgroundColor = "#172A3A";
       this.confirmButton.style.color = "#fafafa";
       this.confirmButton.style.transform = "scale(1)";
     });
@@ -101,14 +109,14 @@ class AlertBox extends DialogBox {
     if (this.callback) {
       this.callback();
     }
-    this.hide(); 
+    this.hide();
   }
 }
 
 class AlertManager {
   constructor() {
     this.alertQueue = [];
-    this.isShowing = false; 
+    this.isShowing = false;
   }
 
   enqueue(alertBox, displayTime) {
@@ -117,15 +125,15 @@ class AlertManager {
   }
 
   processQueue() {
-    if (this.isShowing || this.alertQueue.length === 0) return; 
+    if (this.isShowing || this.alertQueue.length === 0) return;
 
-    const { alertBox, displayTime } = this.alertQueue.shift(); 
-    this.isShowing = true; 
+    const { alertBox, displayTime } = this.alertQueue.shift();
+    this.isShowing = true;
 
     alertBox.show();
     setTimeout(() => {
       alertBox.hide();
-      this.isShowing = false; 
+      this.isShowing = false;
       this.processQueue();
     }, displayTime);
   }
@@ -135,26 +143,26 @@ class AlertHandleSystem {
   constructor(walkGif, eyeGif, waterGif) {
     this.alertManager = new AlertManager();
     this.eyesAlert = new AlertBox(
-      `${eyeGif}`, 
-      "look away for a minute will ya?", 
+      `${eyeGif}`,
+      "look away for a minute will ya?",
       () => {
         console.log("hi"); // Callback action on confirm
       }
     );
     this.walkAlert = new AlertBox(
-      `${walkGif}`, 
-      "you've been coding a lot go for a walk!", 
+      `${walkGif}`,
+      "you've been coding a lot go for a walk!",
       () => {
-        console.log('User confirmed!'); // Callback action on confirm
+        console.log("User confirmed!"); // Callback action on confirm
       }
     );
     this.walkAlert.image.style.height = "45px";
 
     this.waterAlert = new AlertBox(
-      `${waterGif}`, 
-      "why dont you have some water?", 
+      `${waterGif}`,
+      "why dont you have some water?",
       () => {
-        console.log('User confirmed!'); // Callback action on confirm
+        console.log("User confirmed!"); // Callback action on confirm
       }
     );
     this.waterAlert.image.style.height = "45px";
@@ -163,12 +171,12 @@ class AlertHandleSystem {
     // timings are not correct its for test only
     setInterval(() => {
       this.alertManager.enqueue(this.waterAlert, 2000); // Queue water alert every 10 seconds for testing
-    }, 10000); 
-    
+    }, 10000);
+
     setInterval(() => {
       this.alertManager.enqueue(this.walkAlert, 2000); // Queue walk alert every 3 seconds for testing
-    }, 20000); 
-    
+    }, 20000);
+
     setInterval(() => {
       this.alertManager.enqueue(this.eyesAlert, 2000); // Queue eyes alert every 2 seconds for testing
     }, 5000);

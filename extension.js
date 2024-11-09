@@ -13,8 +13,10 @@ class MyTextViewProvider {
       "vector.js",
       "rectangle.js",
       "dialogBox.js",
-      "shuffle.js"
-    ].map((file) => vscode.Uri.joinPath(vscode.Uri.file(__dirname), "src", file));
+      "shuffle.js",
+    ].map((file) =>
+      vscode.Uri.joinPath(vscode.Uri.file(__dirname), "src", file)
+    );
 
     const [
       mainURI,
@@ -24,7 +26,7 @@ class MyTextViewProvider {
       vectorURI,
       rectangleURI,
       dialogBoxURI,
-      shuffleURI
+      shuffleURI,
     ] = scriptFiles.map((file) => webviewView.webview.asWebviewUri(file));
 
     // Create URIs for animation assets
@@ -66,7 +68,7 @@ class MyTextViewProvider {
     );
     const [eyeGif, waterGif, walkGif] = gifFiles;
 
-    // create script list that can be called before main with no problem to add files dynamically 
+    // create script list that can be called before main with no problem to add files dynamically
     const scripts = [
       dialogBoxURI,
       vectorURI,
@@ -74,7 +76,7 @@ class MyTextViewProvider {
       spriteAnimationURI,
       animationControllerURI,
       wiseManURI,
-      shuffleURI
+      shuffleURI,
     ];
     // Set the HTML content for the webview
     webviewView.webview.html = `

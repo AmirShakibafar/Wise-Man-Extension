@@ -31,15 +31,6 @@ const renderBackground = () => {
   context.fillRect(0, 0, canvas.width, canvas.height);
 };
 
-// Function to show a message in the sprite's dialog box
-const showHoverDialog = (message) => {
-  if (message) {
-    dialogBox.show(message); 
-  } else {
-    dialogBox.hide(); 
-  }
-};
-
 // Game loop function
 const gameLoop = () => {
   renderBackground();
@@ -53,9 +44,9 @@ const gameLoop = () => {
   // Show dialog if hovered and quotes are available
   if (sprite.isHovered && sprite.isClicked) {
     const quoteElement = window.quotesArray[quotesIndex]; // Get the current quote
-    showHoverDialog(`${quoteElement.quote} - ${quoteElement.author}`);
+    dialogBox.showHoverDialog(`${quoteElement.quote} -- ${quoteElement.author} --`);
   } else {
-    showHoverDialog("");
+    dialogBox.showHoverDialog("");
     sprite.isClicked = false;
   }
 
@@ -65,7 +56,7 @@ const gameLoop = () => {
 
 // Event listeners
 // Helper function to check if the mouse is within the sprite's boundaries
-function isMouseWithinSprite(mouseX, mouseY, sprite) {
+const isMouseWithinSprite = (mouseX, mouseY, sprite) => {
   return (
     mouseX >= sprite.position.x &&
     mouseX <= sprite.position.x + sprite.size.x &&
