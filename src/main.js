@@ -31,41 +31,6 @@ const renderBackground = () => {
   context.fillRect(0, 0, canvas.width, canvas.height);
 };
 
-// Function to show a message in the sprite's dialog box
-const showHoverDialog = (message) => {
-  if (message) {
-    dialogBox.show(message); 
-  } else {
-    dialogBox.hide(); 
-  }
-};
-
-const showEyesAlert = (condition) => {
-  if (condition) {
-      alertManager.enqueue(eyesAlert, 10000); // Show for 10 seconds for testing
-  } else {
-      eyesAlert.hide();
-  }
-};
-
-const showWaterAlert = (condition) => {
-  if (condition) {
-      alertManager.enqueue(waterAlert, 10000); // Show for 10 seconds for testing
-  } else {
-      waterAlert.hide(); 
-  }
-};
-
-const showWalkAlert = (condition) => {
-  if (condition) {
-      alertManager.enqueue(walkAlert, 10000); // Show for 10 seconds for testing
-  } else {
-      walkAlert.hide(); 
-  }
-};
-
-
-
 // Game loop function
 const gameLoop = () => {
   renderBackground();
@@ -79,9 +44,9 @@ const gameLoop = () => {
   // Show dialog if hovered and quotes are available
   if (sprite.isHovered && sprite.isClicked) {
     const quoteElement = window.quotesArray[quotesIndex]; // Get the current quote
-    showHoverDialog(`${quoteElement.quote} - ${quoteElement.author}`);
+    dialogBox.showHoverDialog(`${quoteElement.quote} -- ${quoteElement.author} --`);
   } else {
-    showHoverDialog("");
+    dialogBox.showHoverDialog("");
     sprite.isClicked = false;
   }
 
@@ -91,7 +56,7 @@ const gameLoop = () => {
 
 // Event listeners
 // Helper function to check if the mouse is within the sprite's boundaries
-function isMouseWithinSprite(mouseX, mouseY, sprite) {
+const isMouseWithinSprite = (mouseX, mouseY, sprite) => {
   return (
     mouseX >= sprite.position.x &&
     mouseX <= sprite.position.x + sprite.size.x &&
@@ -125,32 +90,16 @@ canvas.addEventListener("click", (event) => {
 // Add event listener for window resize
 window.addEventListener("resize", resizeCanvas);
 
-// Initial call to set canvas size
-resizeCanvas();
-
 // Call the function to populate quotesArray
 // Fetch quotes and start the game loop
 const executeAfterFetchingQuotes = async () => {
   await readQuotesFromFile(); // Waits for asyncFunction to complete
   window.quotesArray = shuffle(window.quotesArray); // Shuffle the quotes
+  // Initial call to set canvas size
+  resizeCanvas();
   gameLoop();
 };
 
-const alertManager = new AlertManager();
-setInterval(() => {
-  alertManager.enqueue(waterAlert, 2000); // Queue water alert every 20 seconds for testing
-}, 10000); // Replace with actual timing
-
-setInterval(() => {
-  alertManager.enqueue(walkAlert, 2000); // Queue walk alert every 30 seconds for testing
-}, 20000); // Replace with actual timing
-
-setInterval(() => {
-  alertManager.enqueue(eyesAlert, 2000); // Queue eyes alert every 20 seconds for testing
-}, 5000); // Replace with actual timing
-
-
-
-
-
+alertHandelSystem.start();
 executeAfterFetchingQuotes();
+
