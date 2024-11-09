@@ -1,10 +1,10 @@
 class AnimationController {
   constructor(spriteSize) {
     // Set the frame size for the sprite animations
-    this.frameSize = new Vector2(48, 48);
+    this.frameSize = new Vector2(32, 32);
 
     // Set the offset for the sprite rendering
-    this.spriteOffset = new Vector2(-10, 0);
+    this.spriteOffset = new Vector2(0, 0);
 
     // Store the size of the sprite
     this.spriteSize = spriteSize;

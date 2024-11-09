@@ -6,11 +6,12 @@ class WiseMan {
     canvasWidth,
     idleAnimationURI,
     runAnimationURI,
-    jumpAnimationURI
+    jumpAnimationURI,
+    talkAnimationURI
   ) {
     this.position = position;
     this.size = size.mul(scale);
-    this.velocity = new Vector2(0.5, 0); // Initial horizontal movement speed
+    this.velocity = new Vector2(0.25, 0); // Initial horizontal movement speed
     this.canvasWidth = canvasWidth;
     this.direction = 1;
     this.isOnGround = false;
@@ -26,10 +27,10 @@ class WiseMan {
   }
 
   initializeAnimations(idleAnimationURI, runAnimationURI, jumpAnimationURI) {
-    this.animationController.addAnimation("Idle", idleAnimationURI, 4, 100);
-    this.animationController.addAnimation("Hover", idleAnimationURI, 4, 100);
-    this.animationController.addAnimation("Run", runAnimationURI, 6, 100);
-    this.animationController.addAnimation("Jump", jumpAnimationURI, 4, 100);
+    this.animationController.addAnimation("Idle", idleAnimationURI, 3, 360);
+    this.animationController.addAnimation("Hover", talkAnimationURI, 3, 360);
+    this.animationController.addAnimation("Run", runAnimationURI, 4, 170);
+    this.animationController.addAnimation("Jump", jumpAnimationURI, 3, 160);
     this.animationController.playAnimation("Idle"); // Start with idle animation
   }
 
