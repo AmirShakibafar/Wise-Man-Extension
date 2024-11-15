@@ -31,7 +31,7 @@ const renderBackground = () => {
 };
 
 // Game loop function
-const gameLoop = () => {
+const animationLoop = () => {
   renderBackground();
   ground.render("#004346");
   // Update the sprite's position and animation
@@ -51,7 +51,7 @@ const gameLoop = () => {
   }
 
   // Request the next frame
-  requestAnimationFrame(gameLoop);
+  requestAnimationFrame(animationLoop);
 };
 
 // Event listeners
@@ -96,7 +96,7 @@ const executeAfterFetchingQuotes = async () => {
   window.quotesArray = shuffle(window.quotesArray); // Shuffle the quotes
   // Initial call to set canvas size
   resizeCanvas();
-  gameLoop();
+  animationLoop();
   alertHandelSystem.start();
 };
 

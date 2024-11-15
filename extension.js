@@ -35,6 +35,7 @@ class MyTextViewProvider {
       "Walk.png",
       "PointUp.png",
       "StickUp.png",
+      "PointingDown.png"
     ].map((asset) =>
       webviewView.webview.asWebviewUri(
         vscode.Uri.joinPath(
@@ -52,6 +53,7 @@ class MyTextViewProvider {
       walkAnimationURI,
       pointUpAnimationURI,
       stickUpAnimationURI,
+      pointDownAnimationURI
     ] = animationAssets;
 
     // Create URIs for JSON
@@ -114,7 +116,8 @@ class MyTextViewProvider {
                 const walkAnimationURI = "${walkAnimationURI}";
                 const stickUpAnimationURI = "${stickUpAnimationURI}";
                 const pointUpAnimationURI = "${pointUpAnimationURI}";
-                const sprite = new WiseMan(new Vector2(0, 0), new Vector2(32, 40), 2, innerWidth, idleAnimationURI, walkAnimationURI, stickUpAnimationURI, pointUpAnimationURI);
+                const pointDownAnimationURI = "${pointDownAnimationURI}";
+                const sprite = new WiseMan(new Vector2(0, 0), new Vector2(32, 40), 2, innerWidth, idleAnimationURI, walkAnimationURI, stickUpAnimationURI, pointUpAnimationURI, pointDownAnimationURI);
                 const alertHandelSystem = new AlertHandleSystem("${walkGif}", "${eyeGif}", "${waterGif}");
                 window.quotesArray = []; // Expose the quotesArray globally
                 const readQuotesFromFile = async () => {
@@ -122,6 +125,7 @@ class MyTextViewProvider {
                     const quotesData = await response.json(); // Parse JSON
                     window.quotesArray = quotesData.quotes; // Expose quotesArray to global scope
                 }
+                
             </script>
             <script src="${mainURI}"></script>
         </body>

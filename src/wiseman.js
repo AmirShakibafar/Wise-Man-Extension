@@ -7,7 +7,8 @@ class WiseMan {
     idleAnimationURI,
     walkAnimationURI,
     stickUpAnimationURI,
-    pointUpAnimationURI
+    pointUpAnimationURI,
+    pointDownAnimationURI
   ) {
     this.position = position;
     this.size = size.mul(scale);
@@ -24,7 +25,8 @@ class WiseMan {
       idleAnimationURI,
       walkAnimationURI,
       stickUpAnimationURI,
-      pointUpAnimationURI
+      pointUpAnimationURI,
+      pointDownAnimationURI
     );
   }
 
@@ -32,13 +34,15 @@ class WiseMan {
     idleAnimation,
     walkAnimation,
     stickUpAnimation,
-    pointUpAnimation
+    pointUpAnimation,
+    pointDownAnimation
   ) {
     console.log(pointUpAnimation);
     this.animationController.addAnimation("Idle", idleAnimation, 3, 360);
     this.animationController.addAnimation("Walk", walkAnimation, 3, 360);
     this.animationController.addAnimation("Stick", stickUpAnimation, 4, 200);
-    this.animationController.addAnimation("Point", pointUpAnimation, 3, 160);
+    this.animationController.addAnimation("Pointup", pointUpAnimation, 3, 160);
+    this.animationController.addAnimation("Pointdown", pointDownAnimation, 4, 160);
     this.animationController.playAnimation("Idle"); // Start with idle animation
   }
 
@@ -95,14 +99,20 @@ class WiseMan {
 
   updateAnimationState() {
     // Adjust animation based on movement and ground state
+    if (this.isClicked && this.isHovered) {
+      this.animationController.playAnimation("Pointdown");
+      return;
+    }
     if (this.isHovered && !this.isAlerted) {
       this.animationController.playAnimation("Idle");
       return;
     }
     if (this.isAlerted) {
-      this.animationController.playAnimation("Point");
+      this.animationController.playAnimation("Pointup");
       return;
     }
+
+    
 
     this.animationController.playAnimation("Walk");
   }
