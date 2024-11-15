@@ -3,7 +3,6 @@ const canvas = document.createElement("canvas");
 const context = canvas.getContext("2d");
 document.body.append(canvas);
 
-
 // Define gravity as a small downward force (affects sprite's vertical velocity)
 const GRAVITY = new Vector2(0, 0.1);
 
@@ -35,16 +34,17 @@ const renderBackground = () => {
 const gameLoop = () => {
   renderBackground();
   ground.render("#004346");
-
   // Update the sprite's position and animation
   sprite.update(); // Apply gravity and check for collisions here
   sprite.velocity.add(GRAVITY); // Apply gravity to sprite's velocity
   sprite.position.add(sprite.velocity); // Update sprite's position based on velocity
-
+  sprite.isAlerted = alertHandelSystem.isAlertShowing();
   // Show dialog if hovered and quotes are available
   if (sprite.isHovered && sprite.isClicked) {
     const quoteElement = window.quotesArray[quotesIndex]; // Get the current quote
-    dialogBox.showHoverDialog(`${quoteElement.quote} -- ${quoteElement.author} --`);
+    dialogBox.showHoverDialog(
+      `${quoteElement.quote} -- ${quoteElement.author} --`
+    );
   } else {
     dialogBox.showHoverDialog("");
     sprite.isClicked = false;
@@ -63,7 +63,7 @@ const isMouseWithinSprite = (mouseX, mouseY, sprite) => {
     mouseY >= sprite.position.y &&
     mouseY <= sprite.position.y + sprite.size.y
   );
-}
+};
 
 // Add an event listener for the mousemove event on the canvas
 canvas.addEventListener("mousemove", (event) => {
@@ -79,7 +79,6 @@ canvas.addEventListener("click", (event) => {
   const rect = canvas.getBoundingClientRect();
   const mouseX = event.clientX - rect.left;
   const mouseY = event.clientY - rect.top;
-
 
   if (isMouseWithinSprite(mouseX, mouseY, sprite)) {
     quotesIndex = (quotesIndex + 1) % window.quotesArray.length;
@@ -98,8 +97,7 @@ const executeAfterFetchingQuotes = async () => {
   // Initial call to set canvas size
   resizeCanvas();
   gameLoop();
+  alertHandelSystem.start();
 };
 
-alertHandelSystem.start();
 executeAfterFetchingQuotes();
-

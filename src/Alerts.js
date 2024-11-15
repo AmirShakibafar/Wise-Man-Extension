@@ -119,6 +119,15 @@ class AlertManager {
     this.isShowing = false;
   }
 
+  search(alert) {
+    this.alertQueue.forEach((obj) => {
+      if (obj.alertBox === alert) {
+        return true;
+      }
+    });
+    return false;
+  }
+
   enqueue(alertBox, displayTime) {
     this.alertQueue.push({ alertBox, displayTime });
     this.processQueue();
@@ -126,7 +135,7 @@ class AlertManager {
 
   processQueue() {
     if (this.isShowing || this.alertQueue.length === 0) return;
-
+    console.log("alert happens!");
     const { alertBox, displayTime } = this.alertQueue.shift();
     this.isShowing = true;
 
@@ -167,18 +176,27 @@ class AlertHandleSystem {
     );
     this.waterAlert.image.style.height = "45px";
   }
+  isAlertShowing() {
+    return this.alertManager.isShowing;
+  }
   start() {
     // timings are not correct its for test only
     setInterval(() => {
-      this.alertManager.enqueue(this.waterAlert, 2000); // Queue water alert every 10 seconds for testing
+      if (!this.alertManager.search(this.waterAlert)) {
+        this.alertManager.enqueue(this.waterAlert, 2000); // Queue water alert every 10 seconds for testing
+      }
     }, 10000);
 
     setInterval(() => {
-      this.alertManager.enqueue(this.walkAlert, 2000); // Queue walk alert every 3 seconds for testing
+      if (!this.alertManager.search(this.walkAlert)) {
+        this.alertManager.enqueue(this.walkAlert, 2000); // Queue water alert every 30 seconds for testing
+      }
     }, 20000);
 
     setInterval(() => {
-      this.alertManager.enqueue(this.eyesAlert, 2000); // Queue eyes alert every 2 seconds for testing
+      if (!this.alertManager.search(this.eyesAlert)) {
+        this.alertManager.enqueue(this.eyesAlert, 2000); // Queue water alert every 10 seconds for testing
+      }
     }, 5000);
   }
 }
