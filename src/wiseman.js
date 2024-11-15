@@ -69,7 +69,7 @@ class WiseMan {
       this.toggleDirection();
     }
     // if direction not right when showing alert it will get handled
-    if (this.isAlerted) {
+    if (this.isAlerted || this.isClicked) {
       if (this.position.x > this.canvasWidth / 2 - 40 && this.direction === 1) {
         // 1 means hes looking to right and - 40 is bias for canvas size
         this.toggleDirection();

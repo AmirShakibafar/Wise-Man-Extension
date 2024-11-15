@@ -135,7 +135,7 @@ class AlertManager {
 
   processQueue() {
     if (this.isShowing || this.alertQueue.length === 0) return;
-    console.log("alert happens!");
+    console.log(this.alertQueue.length);
     const { alertBox, displayTime } = this.alertQueue.shift();
     this.isShowing = true;
 
