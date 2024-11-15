@@ -29,7 +29,7 @@ class WiseMan {
   initializeAnimations(idleAnimationURI, runAnimationURI, jumpAnimationURI) {
     this.animationController.addAnimation("Idle", idleAnimationURI, 3, 360);
     this.animationController.addAnimation("Hover", talkAnimationURI, 3, 360);
-    this.animationController.addAnimation("Run", runAnimationURI, 4, 170);
+    this.animationController.addAnimation("Run", runAnimationURI, 4, 200);
     this.animationController.addAnimation("Jump", jumpAnimationURI, 3, 160);
     this.animationController.playAnimation("Idle"); // Start with idle animation
   }

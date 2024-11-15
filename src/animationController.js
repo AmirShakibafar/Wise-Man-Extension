@@ -4,7 +4,7 @@ class AnimationController {
     this.frameSize = new Vector2(32, 32);
 
     // Set the offset for the sprite rendering
-    this.spriteOffset = new Vector2(0, 0);
+    this.spriteOffset = new Vector2(0, -2);
 
     // Store the size of the sprite
     this.spriteSize = spriteSize;
