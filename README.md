@@ -1,67 +1,61 @@
-# 2D Platformer Game
+# Wise Man Extension
 
-A simple 2D platformer game built using HTML5 canvas and JavaScript, featuring character animations, movement, jumping, and basic collision detection.
 
+```
+Welcome to the Wise Man Extension.
+```
 ## Features
 
-- **Player Movement**: Move the player left and right, jump, and trigger attacks using keyboard inputs.
-- **Sprite Animations**: Idle, run, jump, and attack animations for the player character using a sprite sheet.
-- **Physics**: Basic gravity and collision detection with the ground.
-- **Responsive Canvas**: Adapts to the browser window size.
+- **Animated Character**: The Wise Man walks in your editor sidebar, adding a lively, visual element to your coding environment.
+- **Wisdom Sharing**: Each time you click on Wise Man, he shares a different wise sentence to inspire, motivate, or make you think.
+- **Randomized Quotes**: A variety of wise quotes and sentences are preloaded so you can enjoy a new nugget of wisdom each time.
+- **Reminders** : 
 
-## Technologies Used
+    `Eyes Reminder`: Every 20 minutes, the Wise Man reminds you that you've been working for too long and that it may hurt your eyes.
 
-- **JavaScript**: For game logic, player movement, and animations.
-- **HTML5 Canvas**: For rendering the game visuals.
-- **Vector2**: A custom class for 2D vector math to handle positions and velocity.
-- **Sprite Animation System**: Custom class to handle animations using sprite sheets.
+    `Time To Stand Reminder` : This reminder is excellent for those who work for long periods without movement. The Wise Man will remind you every 90 minutes to stand up.
+
+    `Water Drink Reminder` : reminds you to drink enough water. Proper hydration keeps your skin healthy because developers often forget to drink water while working.
 
 ## Installation
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/Amzo2000/2D-Platformer-Game.git
-   ```
-
-2. Navigate to the project folder:
-
-   ```bash
-   cd 2D-Platformer-Game
-   ```
-
-3. Open `index.html` in your preferred web browser.
-
-## How to Play
-
-- Use the **arrow keys** for movement:
-  - **Left Arrow**: Move left
-  - **Right Arrow**: Move right
-  - **Up Arrow**: Jump
-- Press the **'A' key** to trigger an attack animation.
-
-## File Structure
-
-```
-.
-├── assets/                 # Sprite sheets and images
-│   ├── [sprite_image.png]  # Example of a sprite image
-├── vector.js               # 2D vector math class
-├── player.js               # Player class and logic
-├── rectangle.js            # Ground/Rect object class
-├── spriteAnimation.js      # Sprite animation class
-├── animationController.js  # Animation controller for the player
-├── index.html              # Entry point of the game
-└── README.md               # Project documentation
+To install the Wise Man Extension:
+```bash
+1. Go to the Extensions view in Visual Studio Code.
+2. Search for "Wise Man Extension".
+3. Click install
+4. Once installed, reload your VS Code to start seeing the Wise Man in action.
 ```
 
-## Future Enhancements
+## Usage
 
-- **Additional Levels**: Expand the game with more levels and obstacles.
-- **Enhanced Enemy AI**: Add enemies with basic AI and interaction with the player.
-- **Power-ups**: Introduce power-ups for the player.
-- **Score System**: Add a scoring system to track player progress.
+- Once the extension is installed, the Wise Man will automatically start appearing in your editor's side bar.
+- He will walk around your workspace and display a new wise sentence each time you click on him.
+
+## Configuration
+
+Currently, there are no configuration options for the Wise Man Extension. Stay tuned for future updates that might include custom quotes or adjusting the frequency of his appearances.
+
+## Roadmap
+
+Some planned features for future versions:
+
+- Appearance Frequency: Option to control how often the Wise Man appears.
+- Themes and Visual Customization: Change the look of the Wise Man theme to match your workspace.
+- Error reminder : Reminde errors before run. 
 
 ## Contributing
 
-Feel free to open issues or submit pull requests with improvements, suggestions, or bug fixes!
+Contributions are welcome! If you'd like to improve the Wise Man Extension, feel free to open a pull request or submit an issue.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+A big thank you to the open-source community for inspiring this project. We hope the Wise Man Extension brings a bit of wisdom and fun to your coding experience!
+
+---
+
+Enjoy the wisdom and happy coding!

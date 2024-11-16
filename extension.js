@@ -12,7 +12,7 @@ class MyTextViewProvider {
       "spriteAnimation.js",
       "vector.js",
       "rectangle.js",
-      "dialogBox.js",
+      "Alerts.js",
       "shuffle.js",
     ].map((file) =>
       vscode.Uri.joinPath(vscode.Uri.file(__dirname), "src", file)
@@ -31,9 +31,11 @@ class MyTextViewProvider {
 
     // Create URIs for animation assets
     const animationAssets = [
-      "Biker_idle.png",
-      "Biker_run.png",
-      "Biker_jump.png",
+      "Idle.png",
+      "Walk.png",
+      "PointUp.png",
+      "StickUp.png",
+      "PointingDown.png"
     ].map((asset) =>
       webviewView.webview.asWebviewUri(
         vscode.Uri.joinPath(
@@ -45,8 +47,14 @@ class MyTextViewProvider {
       )
     );
 
-    const [idleAnimationURI, runAnimationURI, jumpAnimationURI] =
-      animationAssets;
+    console.log(animationAssets);
+    const [
+      idleAnimationURI,
+      walkAnimationURI,
+      pointUpAnimationURI,
+      stickUpAnimationURI,
+      pointDownAnimationURI
+    ] = animationAssets;
 
     // Create URIs for JSON
     const jsonFiles = ["filteredQuotes.json"].map((asset) =>
@@ -105,9 +113,11 @@ class MyTextViewProvider {
               .join("")}  
             <script>
                 const idleAnimationURI = "${idleAnimationURI}";
-                const runAnimationURI = "${runAnimationURI}";
-                const jumpAnimationURI = "${jumpAnimationURI}";
-                const sprite = new WiseMan(new Vector2(0, 0), new Vector2(32, 40), 2, innerWidth, idleAnimationURI, runAnimationURI, jumpAnimationURI);
+                const walkAnimationURI = "${walkAnimationURI}";
+                const stickUpAnimationURI = "${stickUpAnimationURI}";
+                const pointUpAnimationURI = "${pointUpAnimationURI}";
+                const pointDownAnimationURI = "${pointDownAnimationURI}";
+                const sprite = new WiseMan(new Vector2(0, 0), new Vector2(32, 40), 2, innerWidth, idleAnimationURI, walkAnimationURI, stickUpAnimationURI, pointUpAnimationURI, pointDownAnimationURI);
                 const alertHandelSystem = new AlertHandleSystem("${walkGif}", "${eyeGif}", "${waterGif}");
                 window.quotesArray = []; // Expose the quotesArray globally
                 const readQuotesFromFile = async () => {
@@ -115,6 +125,7 @@ class MyTextViewProvider {
                     const quotesData = await response.json(); // Parse JSON
                     window.quotesArray = quotesData.quotes; // Expose quotesArray to global scope
                 }
+                
             </script>
             <script src="${mainURI}"></script>
         </body>
