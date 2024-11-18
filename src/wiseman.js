@@ -8,7 +8,8 @@ class WiseMan {
     walkAnimationURI,
     stickUpAnimationURI,
     pointUpAnimationURI,
-    pointDownAnimationURI
+    pointDownAnimationURI,
+    rotateAnimationURI
   ) {
     this.position = position;
     this.size = size.mul(scale);
@@ -19,6 +20,7 @@ class WiseMan {
     this.isHovered = false;
     this.isClicked = false;
     this.isAlerted = false;
+    this.isTurning = false;
     this.gravity = new Vector2(0, 0.2); // Constant gravity vector
     this.animationController = new AnimationController(this.size);
     this.initializeAnimations(
@@ -26,7 +28,8 @@ class WiseMan {
       walkAnimationURI,
       stickUpAnimationURI,
       pointUpAnimationURI,
-      pointDownAnimationURI
+      pointDownAnimationURI,
+      rotateAnimationURI
     );
   }
 
@@ -35,18 +38,21 @@ class WiseMan {
     walkAnimation,
     stickUpAnimation,
     pointUpAnimation,
-    pointDownAnimation
+    pointDownAnimation,
+    rotateAnimation
   ) {
     console.log(pointUpAnimation);
     this.animationController.addAnimation("Idle", idleAnimation, 3, 360);
     this.animationController.addAnimation("Walk", walkAnimation, 3, 360);
     this.animationController.addAnimation("Stick", stickUpAnimation, 4, 200);
     this.animationController.addAnimation("Pointup", pointUpAnimation, 3, 160);
-    this.animationController.addAnimation("Pointdown", pointDownAnimation, 4, 160);
+    this.animationController.addAnimation("Pointdown", pointDownAnimation, 3, 160);
+    this.animationController.addAnimation("Rotate", rotateAnimation, 6, 1);
     this.animationController.playAnimation("Idle"); // Start with idle animation
   }
 
   toggleDirection() {
+    this.isTurning = true;
     this.velocity.x *= -1; // Reverse direction
     this.direction *= -1; // Flip rendering direction
   }
@@ -99,6 +105,13 @@ class WiseMan {
 
   updateAnimationState() {
     // Adjust animation based on movement and ground state
+    if (this.isTurning) {
+      this.animationController.playAnimation("Rotate");
+      if (this.animationController.getCurrentAnimationFrame() == 5) {
+        this.isTurning = false;
+      }
+      return
+    }
     if (this.isClicked && this.isHovered) {
       this.animationController.playAnimation("Pointdown");
       return;

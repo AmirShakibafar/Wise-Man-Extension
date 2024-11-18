@@ -95,4 +95,8 @@ class AnimationController {
   isAnimating() {
     return this.currentAnimation ? this.currentAnimation.isAnimating : false;
   }
+
+  getCurrentAnimationFrame() {
+    return this.currentAnimation ? this.currentAnimation.currentFrame : null;
+  }
 }
