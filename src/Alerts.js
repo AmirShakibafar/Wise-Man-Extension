@@ -192,18 +192,18 @@ class AlertHandleSystem {
       if (!this.alertManager.search(this.waterAlert)) {
         this.alertManager.enqueue(this.waterAlert, 2000); // Queue water alert every 10 seconds for testing
       }
-    }, 10000);
+    },3600000 );
 
     setInterval(() => {
       if (!this.alertManager.search(this.walkAlert)) {
         this.alertManager.enqueue(this.walkAlert, 2000); // Queue water alert every 30 seconds for testing
       }
-    }, 20000);
+    }, 5400000);
 
     setInterval(() => {
       if (!this.alertManager.search(this.eyesAlert)) {
         this.alertManager.enqueue(this.eyesAlert, 2000); // Queue water alert every 10 seconds for testing
       }
-    }, 5000);
+    }, 1200000);
   }
 }

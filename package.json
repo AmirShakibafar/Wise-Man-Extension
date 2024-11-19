@@ -1,10 +1,15 @@
 {
-  "name": "test",
-  "displayName": "test",
-  "description": "",
-  "version": "0.0.1",
+  "name": "morids",
+  "displayName": "Wise Elder",
+  "description": "An insightful companion for your coding journey",
+  "version": "1.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmirShakibafar/Wise-Man-Extension.git"
+  },
+  "publisher": "Morids",
   "engines": {
-    "vscode": "^1.94.0"
+    "vscode": "^1.73.0"
   },
   "categories": [
     "Other"
