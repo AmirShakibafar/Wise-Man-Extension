@@ -1,6 +1,13 @@
 class DialogBox {
   constructor() {
     this.dialogBox = document.createElement("div");
+    this.initStyles();
+    document.body.appendChild(this.dialogBox);
+    this.dialogContent = document.createElement("span");
+    this.dialogBox.appendChild(this.dialogContent);
+  }
+
+  initStyles() {
     this.dialogBox.style.display = "none";
     this.dialogBox.style.position = "fixed"; // Fixed position relative to the viewport
     this.dialogBox.style.background = "rgba(0, 67, 70, 0.763)";
@@ -15,10 +22,6 @@ class DialogBox {
     this.dialogBox.style.transform = "translateX(-50%)";
     this.dialogBox.style.transition = "opacity 0.5s ease, transform 0.5s ease";
     this.dialogBox.style.boxShadow = "0px 4px 8px rgba(0, 0, 0, 0.3)"; // Add box shadow
-    document.body.appendChild(this.dialogBox);
-
-    this.dialogContent = document.createElement("span");
-    this.dialogBox.appendChild(this.dialogContent);
   }
 
   show(message) {
@@ -57,22 +60,12 @@ class AlertBox extends DialogBox {
     this.dialogBox.innerHTML = ""; // Clear previous content
     this.dialogBox.style.flexDirection = "column";
     this.dialogBox.style.alignItems = "center";
-
-    // Create image element
-    this.image = document.createElement("img");
-    this.image.src = imageSrc;
-    this.image.style.width = "40px";
-    this.image.style.height = "fit-content";
-    this.image.style.display = "block";
-    this.dialogBox.appendChild(this.image);
-
-    // Create message element
-    this.message = document.createElement("div");
-    this.message.textContent = message;
-    this.message.style.textAlign = "center";
-    this.message.style.maxWidth = "200px";
-    this.dialogBox.appendChild(this.message);
-
+    this.imageElementInit(imageSrc);
+    this.messageElementInit(message);
+    this.confirmButtonInit();
+    this.callback = callback;
+  }
+  confirmButtonInit() {
     // Create confirm button
     this.confirmButton = document.createElement("button");
     this.confirmButton.textContent = "Will Do!";
@@ -101,10 +94,24 @@ class AlertBox extends DialogBox {
 
     this.confirmButton.onclick = () => this.confirm(); // Bind confirm function
     this.dialogBox.appendChild(this.confirmButton);
-
-    this.callback = callback;
   }
-
+  messageElementInit(message) {
+    // Create message element
+    this.message = document.createElement("div");
+    this.message.textContent = message;
+    this.message.style.textAlign = "center";
+    this.message.style.maxWidth = "200px";
+    this.dialogBox.appendChild(this.message);
+  }
+  imageElementInit(imageSrc) {
+    // Create image element
+    this.image = document.createElement("img");
+    this.image.src = imageSrc;
+    this.image.style.width = "40px";
+    this.image.style.height = "fit-content";
+    this.image.style.display = "block";
+    this.dialogBox.appendChild(this.image);
+  }
   confirm() {
     if (this.callback) {
       this.callback();
