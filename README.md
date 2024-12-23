@@ -4,6 +4,7 @@
 ```
 Welcome to the Wise Man Extension.
 ```
+![extension gif](/assets/gifs/wise_elder.gif)
 ## Features
 
 - **Animated Character**: The Wise Man walks in your editor sidebar, adding a lively, visual element to your coding environment.
